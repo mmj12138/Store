@@ -14,7 +14,9 @@ import com.mmj.core.dto.LoginRequest;
 import com.mmj.core.dto.RegisterRequest;
 import com.mmj.core.service.LoginService;
 
-
+/**
+ * 登陆注册相关界面Controller
+ */
 @RestController
 @CrossOrigin
 @RequestMapping("/init")

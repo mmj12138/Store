@@ -8,77 +8,33 @@
 <form id="uploadForm" method="post" enctype="multipart/form-data">
     <!-- 在选择图片的时，触发Ajax异步上传图片 -->
     <input name="file" type="file" onchange="uploadFile()"/>
-    <img class="imgSrc"/>
+    <img id="imgSrc" class="img-circle" src="./dist/img/mm/张云龙002.jpg"/>
     <input type="hidden" class="saveImgPath" />
 </form>
 <!-- jQuery 3 -->
 <script src="bower_components/jquery/dist/jquery.min.js"></script>
 <!-- jQuery UI 1.11.4 -->
 <script src="bower_components/jquery-ui/jquery-ui.min.js"></script>
-<script src="bower_components/jquery-ui/jquery.form.js"></script>
 
-<!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
-<script>
+<!-- 图片上传jQueryForm -->
+<script src="bower_components/jquery-ui/jquery.form.js"></script>
+<!-- Ajax异步上传图片 -->
+<script type="text/javascript">
     function uploadFile() {
         var options = {
             // 请求上传图片服务接口
-            url: "./screen/uploadFile",
+            url: "http://localhost:8080/uploadFile",
             // 请求方式
             type: "post",
             // 回调函数
             success: function(data) {
                 // 显示上传成功的图片
-                $(".imgSrc").attr("src", data);
+                $("#imgSrc").attr("src", './dist/img/mm/'+data);
                 // 保存服务器图片路径，用于保存数据库
                 $(".saveImgPath").val(data);
             }
         };
-        $("#uploadForm").ajaxForm(options);
-    }
-    //用于进行图片上传，返回地址
-    function setImg(obj){
-        var f=$(obj).val();
-        alert(f);
-        console.log(obj);
-        if(f == null || f ==undefined || f == ''){
-            return false;
-        }
-        if(!/\.(?:png|jpg|bmp|gif|PNG|JPG|BMP|GIF)$/.test(f))
-        {
-            alert("类型必须是图片(.png|jpg|bmp|gif|PNG|JPG|BMP|GIF)");
-            $(obj).val('');
-            return false;
-        }
-        var data = new FormData();
-        console.log(data);
-        $.each($(obj)[0].files,function(i,file){
-            data.append('file', file);
-        });
-        console.log(data);
-        $.ajax({
-            type: "POST",
-            url: GLOBAL_INFO.WEBURL_PREFIX+"business/uploadImg.xhtml",
-            data: data,
-            cache: false,
-            contentType: false,    //不可缺
-            processData: false,    //不可缺
-            dataType:"json",
-            success: function(ret) {
-                console.log(ret);
-                if(ret.code==0){
-                    $("#photoUrl").val(ret.result.url);//将地址存储好
-                    $("#photourlShow").attr("src",ret.result.url);//显示图片
-                    alertOk(ret.message);
-                }else{
-                    alertError(ret.message);
-                    $("#url").val("");
-                    $(obj).val('');
-                }
-            },
-            error: function(XMLHttpRequest, textStatus, errorThrown) {
-                alert("上传失败，请检查网络后重试");
-            }
-        });
+        $("#uploadForm").ajaxSubmit(options);
     }
 </script>
 <!-- Bootstrap 3.3.7 -->
@@ -93,9 +49,6 @@
 <script src="plugins/jvectormap/jquery-jvectormap-world-mill-en.js"></script>
 <!-- jQuery Knob Chart -->
 <script src="bower_components/jquery-knob/dist/jquery.knob.min.js"></script>
-<script type="text/javascript">
-
-</script>
 <!-- daterangepicker -->
 <script src="bower_components/moment/min/moment.min.js"></script>
 <script src="bower_components/bootstrap-daterangepicker/daterangepicker.js"></script>
