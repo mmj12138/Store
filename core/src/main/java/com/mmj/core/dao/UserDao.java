@@ -6,6 +6,7 @@ import javax.annotation.Resource;
 
 import org.springframework.stereotype.Component;
 
+import com.alibaba.druid.util.StringUtils;
 import com.mmj.core.mapper.auto.UserMapper;
 import com.mmj.core.model.auto.User;
 import com.mmj.core.model.auto.UserExample;
@@ -30,6 +31,24 @@ public class UserDao {
             return userList.stream().findFirst().get().getPassword();
         }
     }
+
+    /**
+     * 根据coinGoodsNumber修改coinGoodsExtension
+     *
+     * @param email
+     * @param user
+     */
+    public Boolean updateByEmail(String email, User user) {
+        if (StringUtils.isEmpty(email)) {
+            return false;
+        }
+        UserExample example = new UserExample();
+        example.createCriteria().andEmailEqualTo(email);
+        //更新数据
+        userMapper.updateByExampleSelective(user, example);
+        return true;
+    }
+
 
 
 }
