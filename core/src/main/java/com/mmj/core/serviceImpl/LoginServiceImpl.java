@@ -28,15 +28,15 @@ public class LoginServiceImpl implements LoginService {
 
 
     @Override
-    public Boolean isLogin(LoginRequest usr) {
+    public String isLogin(LoginRequest usr) {
         if (!Optional.ofNullable(usr).isPresent()) {
-            return false;
+            return "-1";
         }
-        String password = userDao.selectPasswordByEmail(usr.getEmail());
-        if (password.equals("-1") || !StringUtils.equals(password, usr.getPassword())) {
-            return false;
+        User user = userDao.selectPasswordByEmail(usr.getEmail());
+        if (!Optional.ofNullable(user).isPresent() || !StringUtils.equals(user.getPassword(), usr.getPassword())) {
+            return "-1";
         }
-        return true;
+        return user.getNickName();
     }
 
     @Override
@@ -44,8 +44,8 @@ public class LoginServiceImpl implements LoginService {
         if (StringUtils.isEmpty(email)) {
             return "请输入您的邮箱";
         }
-        String password = userDao.selectPasswordByEmail(email);
-        if(password.equals("-1")) {
+        User user = userDao.selectPasswordByEmail(email);
+        if(!Optional.ofNullable(user).isPresent()) {
             try {
                 return MailOperationUtil.sendMail(email, ContentEnums.REGISTER.getSubject(), ContentEnums.REGISTER.getDisplay());
             } catch (Exception e) {
@@ -59,8 +59,8 @@ public class LoginServiceImpl implements LoginService {
 
     @Override
     public Boolean register(RegisterRequest usr) {
-        String password = userDao.selectPasswordByEmail(usr.getEmail());
-        if(!password.equals("-1")) {
+        User selectUser = userDao.selectPasswordByEmail(usr.getEmail());
+        if(!Optional.ofNullable(selectUser).isPresent()) {
             return false;
         }
         User user = new User();
@@ -77,8 +77,8 @@ public class LoginServiceImpl implements LoginService {
         if (StringUtils.isEmpty(email)) {
             return "请输入您的邮箱";
         }
-        String password = userDao.selectPasswordByEmail(email);
-        if(!password.equals("-1")) {
+        User user = userDao.selectPasswordByEmail(email);
+        if(!Optional.ofNullable(user).isPresent()) {
             try {
                 return MailOperationUtil.sendMail(email, ContentEnums.UPDATE.getSubject(),
                                                   ContentEnums.UPDATE.getDisplay());

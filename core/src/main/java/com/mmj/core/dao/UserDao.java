@@ -20,15 +20,15 @@ public class UserDao {
     /**
      * 通过email查询password 逻辑查询唯一值
      */
-    public String selectPasswordByEmail(String email) {
+    public User selectPasswordByEmail(String email) {
         UserExample example = new UserExample();
         UserExample.Criteria criteria = example.createCriteria();
         criteria.andEmailEqualTo(email);
         List<User> userList = userMapper.selectByExample(example);
         if (userList.size() == 0) {
-            return "-1";
+            return null;
         } else {
-            return userList.stream().findFirst().get().getPassword();
+            return userList.stream().findFirst().get();
         }
     }
 

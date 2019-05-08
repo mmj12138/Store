@@ -4,7 +4,6 @@ import java.io.ByteArrayInputStream;
 import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
-import java.util.UUID;
 
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
@@ -32,8 +31,8 @@ public class UploadServiceImpl implements UploadService {
 
     // 保存图片至本地，relativePath图片相对路径；targetFilePathName服务器图片名称；fielBytes图片字节流
     public String saveFile(String relativePath, MultipartFile file, byte[] fileBytes) throws IOException {
-        String SysPath = System.getProperty("user.dir");
-        String filePath = SysPath + relativePath + file.getOriginalFilename();
+        String sysPath = System.getProperty("user.dir");
+        String filePath = sysPath + relativePath + file.getOriginalFilename();
         try {
             file.transferTo(new File(filePath));
         } catch (IllegalStateException | IOException e) {

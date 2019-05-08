@@ -2,15 +2,52 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c724d646-d75b-4df0-b38c-3c9683efc4c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/mmj/app/controller/UploadContorller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/mmj/core/service/UploadService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/mmj/core/serviceImpl/UploadServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/master/img2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/master/bower_components/jquery-ui/jquery.cookie.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mmj/app/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mmj/app/controller/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/resources/static/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/core/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/mmj/core/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/mmj/core/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/mmj/core/service/LoginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/mmj/core/service/LoginService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/mmj/core/serviceImpl/LoginServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/mmj/core/serviceImpl/LoginServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/mmj/core/serviceImpl/UploadServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/mmj/core/serviceImpl/UploadServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/mmj/core/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/mmj/core/dao/UserDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/mmj/core/service/LoginService.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/mmj/core/service/LoginService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/mmj/core/serviceImpl/LoginServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/mmj/core/serviceImpl/LoginServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/mmj/core/serviceImpl/UploadServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/mmj/core/serviceImpl/UploadServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/master/img.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/master/img.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/master/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/master/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/master/index2.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/master/index2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/master/pages/UI/buttons.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/master/pages/UI/buttons.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/master/pages/UI/general.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/master/pages/UI/general.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/master/pages/UI/icons.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/master/pages/UI/icons.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/master/pages/UI/modals.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/master/pages/UI/modals.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/master/pages/UI/sliders.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/master/pages/UI/sliders.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/master/pages/UI/timeline.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/master/pages/UI/timeline.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/master/pages/calendar.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/master/pages/calendar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/master/pages/charts/chartjs.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/master/pages/charts/chartjs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/master/pages/charts/flot.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/master/pages/charts/flot.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/master/pages/charts/inline.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/master/pages/charts/inline.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/master/pages/charts/morris.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/master/pages/charts/morris.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/master/pages/examples/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/master/pages/examples/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/master/pages/examples/500.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/master/pages/examples/500.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/master/pages/examples/blank.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/master/pages/examples/blank.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/master/pages/examples/invoice.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/master/pages/examples/invoice.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/master/pages/examples/pace.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/master/pages/examples/pace.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/master/pages/examples/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/master/pages/examples/profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/master/pages/forms/advanced.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/master/pages/forms/advanced.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/master/pages/forms/editors.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/master/pages/forms/editors.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/master/pages/forms/general.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/master/pages/forms/general.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/master/pages/layout/boxed.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/master/pages/layout/boxed.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/master/pages/layout/collapsed-sidebar.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/master/pages/layout/collapsed-sidebar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/master/pages/layout/fixed.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/master/pages/layout/fixed.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/master/pages/layout/top-nav.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/master/pages/user/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/master/pages/mailbox/compose.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/master/pages/mailbox/compose.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/master/pages/mailbox/mailbox.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/master/pages/mailbox/mailbox.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/master/pages/mailbox/read-mail.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/master/pages/mailbox/read-mail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/master/pages/tables/data.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/master/pages/tables/data.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/master/pages/tables/simple.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/master/pages/tables/simple.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/master/pages/user/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/master/pages/user/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/master/pages/user/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/master/pages/user/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/master/pages/widgets.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/master/pages/widgets.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -40,63 +77,58 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/master/img.html">
+        <entry file="file://$PROJECT_DIR$/web/master/pages/user/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="28" column="19" lean-forward="true" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
+            <state relative-caret-position="149">
+              <caret line="27" column="35" lean-forward="true" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/resources/static/index.html">
+        <entry file="file://$PROJECT_DIR$/web/master/bower_components/jquery-ui/jquery.cookie.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" column="106" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="106" />
+            <state relative-caret-position="253">
+              <caret line="54" column="17" selection-start-line="54" selection-start-column="17" selection-end-line="54" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/master/img2.html">
+        <entry file="file://$PROJECT_DIR$/web/master/pages/user/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="804">
-              <caret line="54" column="36" selection-start-line="54" selection-start-column="36" selection-end-line="54" selection-end-column="36" />
+            <state relative-caret-position="127">
+              <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/master/test.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="497">
+              <caret line="45" column="12" selection-start-line="45" selection-start-column="12" selection-end-line="45" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mmj/app/controller/LoginController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="212">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
               <folding>
-                <element signature="n#style#0;n#img#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="e#1014#1015#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mmj/app/controller/UploadContorller.java">
+        <entry file="file://$PROJECT_DIR$/core/src/main/java/com/mmj/core/serviceImpl/LoginServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/main/java/com/mmj/core/service/UploadService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/main/java/com/mmj/core/serviceImpl/UploadServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+            <state relative-caret-position="279">
+              <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -105,24 +137,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/master/dist/img/mm/张云龙002.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/UUID.java">
+        <entry file="file://$PROJECT_DIR$/web/master/pages/layout/collapsed-sidebar.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="140" column="23" selection-start-line="140" selection-start-column="23" selection-end-line="140" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/net/coobird/thumbnailator/0.4.8/thumbnailator-0.4.8.jar!/net/coobird/thumbnailator/Thumbnails.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="784" column="20" selection-start-line="784" selection-start-column="20" selection-end-line="784" selection-end-column="20" />
+            <state relative-caret-position="-8127">
+              <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -130,8 +148,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/master/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="74" column="98" lean-forward="true" selection-start-line="74" selection-start-column="24" selection-end-line="74" selection-end-column="98" />
+            <state relative-caret-position="55">
+              <caret line="1254" column="58" selection-start-line="1254" selection-start-column="58" selection-end-line="1254" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/master/pages/user/register.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-314">
+              <caret line="55" column="30" lean-forward="true" selection-start-line="55" selection-start-column="30" selection-end-line="55" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/master/pages/user/update.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="131" selection-start-line="131" selection-end-line="131" />
             </state>
           </provider>
         </entry>
@@ -157,6 +193,8 @@
       <find>100</find>
       <find>spring-con</find>
       <find>img</find>
+      <find>span</find>
+      <find>Alex</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -178,7 +216,6 @@
         <option value="$PROJECT_DIR$/inf/src/main/java/com/mmj/inf/dto/Pager.java" />
         <option value="$PROJECT_DIR$/inf/src/main/java/com/mmj/inf/dto/AbstractRequest.java" />
         <option value="$PROJECT_DIR$/core/src/main/java/com/mmj/core/dto/LoginRequest.java" />
-        <option value="$PROJECT_DIR$/web/master/pages/layout/top-nav.html" />
         <option value="$PROJECT_DIR$/web/master/pages/layout/collapsed-sidebar.html" />
         <option value="$PROJECT_DIR$/core/src/main/java/com/mmj/core/dto/MailAuthenticator.java" />
         <option value="$PROJECT_DIR$/core/src/main/java/com/mmj/core/service/RegisterService.java" />
@@ -194,24 +231,26 @@
         <option value="$PROJECT_DIR$/inf/src/main/java/com/mmj/inf/enums/ContentEnum.java" />
         <option value="$PROJECT_DIR$/inf/src/main/java/com/mmj/inf/enums/ContentEnums.java" />
         <option value="$PROJECT_DIR$/inf/src/main/java/com/mmj/inf/util/MailOperationUtil.java" />
-        <option value="$PROJECT_DIR$/core/src/main/java/com/mmj/core/dao/UserDao.java" />
-        <option value="$PROJECT_DIR$/core/src/main/java/com/mmj/core/service/LoginService.java" />
-        <option value="$PROJECT_DIR$/web/master/pages/user/login.html" />
         <option value="$PROJECT_DIR$/web/master/pages/user/agreement.html" />
-        <option value="$PROJECT_DIR$/core/src/main/java/com/mmj/core/serviceImpl/LoginServiceImpl.java" />
         <option value="$PROJECT_DIR$/web/master/pages/user/update.html" />
-        <option value="$PROJECT_DIR$/web/master/pages/user/register.html" />
         <option value="$PROJECT_DIR$/inf/src/main/java/com/mmj/inf/dto/RestResponse.java" />
         <option value="$PROJECT_DIR$/web/master/bower_components/bootstrap/less/forms.less" />
         <option value="$PROJECT_DIR$/web/master/bower_components/jquery-ui/jquery.form.js" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/mmj/app/controller/LoginController.java" />
         <option value="$PROJECT_DIR$/core/src/main/java/com/mmj/core/service/UploadService.java" />
         <option value="$PROJECT_DIR$/core/pom.xml" />
         <option value="$PROJECT_DIR$/web/master/img2.html" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/mmj/app/controller/UploadContorller.java" />
         <option value="$PROJECT_DIR$/app/src/main/resources/static/index.html" />
-        <option value="$PROJECT_DIR$/core/src/main/java/com/mmj/core/serviceImpl/UploadServiceImpl.java" />
         <option value="$PROJECT_DIR$/web/master/img.html" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/mmj/core/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/mmj/core/service/LoginService.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/mmj/core/serviceImpl/LoginServiceImpl.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mmj/app/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/mmj/core/serviceImpl/UploadServiceImpl.java" />
+        <option value="$PROJECT_DIR$/web/master/test.html" />
+        <option value="$PROJECT_DIR$/web/master/pages/layout/top-nav.html" />
+        <option value="$PROJECT_DIR$/web/master/pages/user/register.html" />
+        <option value="$PROJECT_DIR$/web/master/pages/user/login.html" />
       </list>
     </option>
   </component>
@@ -231,11 +270,9 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="x" value="-240" />
-    <option name="y" value="-1080" />
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -307,25 +344,6 @@
             <path>
               <item name="Store" type="b2602c69:ProjectViewProjectNode" />
               <item name="Store" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Store" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Store" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Store" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Store" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -339,15 +357,23 @@
               <item name="Store" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="master" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Store" type="b2602c69:ProjectViewProjectNode" />
               <item name="Store" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="master" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="layout" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Store" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Store" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="master" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -364,7 +390,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557211802443" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557296063643" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
@@ -373,16 +399,17 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web/master/pages/user" />
       <recent name="$PROJECT_DIR$/app/src/main/resources/static/img" />
       <recent name="$PROJECT_DIR$/web/master/bower_components/jquery-ui" />
       <recent name="$PROJECT_DIR$/app/src/main/resources/static" />
       <recent name="$PROJECT_DIR$/inf/lib" />
-      <recent name="$PROJECT_DIR$/web/master/pages/layout" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.mmj.core.dto" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web/master/bower_components/jquery-ui" />
       <recent name="$PROJECT_DIR$/web/master/pages/user" />
       <recent name="$PROJECT_DIR$/core/src/main/java/com/mmj/core" />
       <recent name="$PROJECT_DIR$/app/src/main/java/com/mmj/app" />
@@ -420,18 +447,18 @@
       <option name="presentableId" value="Default" />
       <updated>1556607083221</updated>
       <workItem from="1556607084886" duration="1540000" />
-      <workItem from="1556609140959" duration="45957000" />
+      <workItem from="1556609140959" duration="56128000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47497000" />
+    <option name="totallyTimeSpent" value="57668000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-240" y="-1080" width="1920" height="1080" extended-state="6" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16027689" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21530758" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -442,7 +469,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.44752476" />
-      <window_info active="true" anchor="bottom" x="-219" y="-604" width="1878" height="128" id="Debug" order="3" visible="true" weight="0.3841584" />
+      <window_info anchor="bottom" x="-219" y="-604" width="1878" height="128" id="Debug" order="3" visible="true" weight="0.46746987" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -454,7 +481,7 @@
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32970297" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="15" />
+      <window_info anchor="bottom" id="Version Control" order="15" weight="0.32970297" />
       <window_info anchor="right" id="Preview" order="0" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
@@ -468,7 +495,7 @@
       <window_info anchor="right" id="Bean Validation" order="10" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16027689" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21530758" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -479,19 +506,19 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.44752476" />
-      <window_info anchor="bottom" id="Debug" order="3" type="SLIDING" visible="true" weight="0.3049505" />
+      <window_info anchor="bottom" x="-219" y="-604" width="1878" height="128" id="Debug" order="3" visible="true" weight="0.46746987" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
       <window_info anchor="bottom" id="Spring" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49893504" visible="true" weight="0.2851485" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49893504" weight="0.2851485" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50106496" side_tool="true" visible="true" weight="0.2851485" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50106496" side_tool="true" weight="0.2851485" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32970297" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="15" />
+      <window_info anchor="bottom" id="Version Control" order="15" weight="0.32970297" />
       <window_info anchor="right" id="Preview" order="0" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
@@ -561,21 +588,27 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/core/src/main/java/com/mmj/core/serviceImpl/UploadServiceImpl.java</url>
-          <line>22</line>
+          <line>21</line>
           <properties />
           <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/core/src/main/java/com/mmj/core/serviceImpl/UploadServiceImpl.java</url>
-          <line>29</line>
+          <line>28</line>
           <properties />
           <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/core/src/main/java/com/mmj/core/serviceImpl/UploadServiceImpl.java</url>
-          <line>38</line>
+          <line>36</line>
           <properties />
           <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/mmj/app/controller/LoginController.java</url>
+          <line>34</line>
+          <properties />
+          <option name="timeStamp" value="27" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/mmj/app/controller/LoginController.java</url>
@@ -589,41 +622,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/javax/mail/javax.mail-api/1.6.0/javax.mail-api-1.6.0.jar!/javax/mail/Session.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="33" column="19" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context-support/5.1.6.RELEASE/spring-context-support-5.1.6.RELEASE.jar!/org/springframework/mail/javamail/JavaMailSenderImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="163" column="23" selection-start-line="163" selection-start-column="23" selection-end-line="163" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/net/URLClassLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="774">
-          <caret line="381" selection-start-line="381" selection-end-line="381" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/javax/mail/javax.mail-api/1.6.2/javax.mail-api-1.6.2.jar!/javax/mail/internet/MimeMessage.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="181" selection-start-line="181" selection-end-line="181" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context-support/5.1.6.RELEASE/spring-context-support-5.1.6.RELEASE.jar!/org/springframework/mail/javamail/MimeMessageHelper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-449">
-          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/inf/src/main/java/com/mmj/inf/dto/MailAuthenticator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
@@ -696,13 +694,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/mmj/core/dao/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="40" column="19" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/master/pages/user/agreement.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="594">
@@ -714,20 +705,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="25" lean-forward="true" selection-start-column="25" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/master/pages/user/update.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="800">
-          <caret line="131" selection-start-line="131" selection-end-line="131" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/master/pages/user/register.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="138" column="53" lean-forward="true" selection-start-line="138" selection-start-column="53" selection-end-line="138" selection-end-column="53" />
         </state>
       </provider>
     </entry>
@@ -745,16 +722,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/mmj/core/serviceImpl/LoginServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="729">
-          <caret line="97" column="39" selection-start-line="97" selection-start-column="39" selection-end-line="97" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/inf/src/main/java/com/mmj/inf/util/MailOperationUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="808">
@@ -762,13 +729,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/master/pages/user/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="71" column="45" lean-forward="true" selection-start-line="71" selection-start-column="45" selection-end-line="71" selection-end-column="45" />
         </state>
       </provider>
     </entry>
@@ -843,40 +803,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mmj/app/controller/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
-          <folding>
-            <element signature="e#939#940#0" expanded="true" />
-            <element signature="e#996#997#0" expanded="true" />
-            <element signature="e#1154#1155#0" expanded="true" />
-            <element signature="e#1212#1213#0" expanded="true" />
-            <element signature="e#1374#1375#0" expanded="true" />
-            <element signature="e#1427#1428#0" expanded="true" />
-            <element signature="e#1583#1584#0" expanded="true" />
-            <element signature="e#1639#1640#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/mmj/core/service/LoginService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="16" column="38" selection-start-line="11" selection-start-column="4" selection-end-line="16" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="634">
-          <caret line="114" column="21" selection-start-line="114" selection-start-column="21" selection-end-line="114" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/io/FileSystem.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
@@ -905,13 +831,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/mmj/core/service/UploadService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/resources/static/imgfile">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -936,47 +855,152 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/resources/static/img/bg.jpeg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/master/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="74" column="98" lean-forward="true" selection-start-line="74" selection-start-column="24" selection-end-line="74" selection-end-column="98" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/resources/static/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="106" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="106" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mmj/app/controller/UploadContorller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="72">
+          <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/master/dist/img/mm/张云龙002.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/mmj/core/serviceImpl/UploadServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/core/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+        <state relative-caret-position="616">
+          <caret line="114" column="21" selection-start-line="114" selection-start-column="21" selection-end-line="114" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/mmj/core/service/UploadService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3053" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/master/img.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-495">
+          <caret line="11" column="43" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/mmj/core/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="27" column="35" lean-forward="true" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mmj/app/controller/UploadContorller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="25" column="39" lean-forward="true" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/master/img.html">
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/mmj/core/serviceImpl/UploadServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="28" column="19" lean-forward="true" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
+        <state relative-caret-position="306">
+          <caret line="17" column="70" lean-forward="true" selection-start-line="17" selection-start-column="70" selection-end-line="17" selection-end-column="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/mmj/core/service/LoginService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/mmj/core/serviceImpl/LoginServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/master/pages/layout/collapsed-sidebar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8127">
+          <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/master/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="55">
+          <caret line="1254" column="58" selection-start-line="1254" selection-start-column="58" selection-end-line="1254" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/master/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="497">
+          <caret line="45" column="12" selection-start-line="45" selection-start-column="12" selection-end-line="45" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/master/bower_components/jquery-ui/jquery.cookie.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="54" column="17" selection-start-line="54" selection-start-column="17" selection-end-line="54" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mmj/app/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="e#1014#1015#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/master/pages/user/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/master/pages/user/update.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="131" selection-start-line="131" selection-end-line="131" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/master/pages/user/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-314">
+          <caret line="55" column="30" lean-forward="true" selection-start-line="55" selection-start-column="30" selection-end-line="55" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/master/pages/user/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="27" column="35" lean-forward="true" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
         </state>
       </provider>
     </entry>

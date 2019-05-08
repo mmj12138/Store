@@ -14,7 +14,7 @@ public interface LoginService {
      * @param usr
      * @return
      */
-    Boolean isLogin(LoginRequest usr);
+    String isLogin(LoginRequest usr);
 
     /**
      * 获取验证码

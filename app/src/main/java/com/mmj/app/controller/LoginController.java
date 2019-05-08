@@ -31,7 +31,7 @@ public class LoginController {
      * @return
      */
     @PostMapping("/login")
-    public Boolean hello(@RequestBody final LoginRequest loginRequest) {
+    public String login(@RequestBody final LoginRequest loginRequest) {
         return loginService.isLogin(loginRequest);
     }
 
