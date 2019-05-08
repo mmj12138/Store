@@ -32,32 +32,37 @@
     <p class="login-box-msg">请注册新账号</p>
 
       <div class="form-group has-feedback">
-        <input type="text" class="form-control" placeholder="请输入您的昵称">
+        <input id="nickName" type="text" class="form-control" placeholder="请输入您的昵称">
         <span class="glyphicon glyphicon-user form-control-feedback"></span>
       </div>
       <div class="form-group has-feedback">
-        <input type="email" class="form-control" placeholder="请输入您的邮箱">
+        <input id="email" type="email" class="form-control" placeholder="请输入您的邮箱">
         <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
       </div>
+      <button id="code" type="submit" class="btn btn-primary btn-block code-flat">获取验证码</button>
       <div class="form-group has-feedback">
-        <input type="password" class="form-control" placeholder="请输入您的密码">
+        <input id="inputCode" type="password" class="form-control" placeholder="请输入您的验证码">
         <span class="glyphicon glyphicon-lock form-control-feedback"></span>
       </div>
       <div class="form-group has-feedback">
-        <input type="password" class="form-control" placeholder="请再次输入您的密码">
+        <input id="p1" type="password" class="form-control" placeholder="请输入您的密码">
+        <span class="glyphicon glyphicon-lock form-control-feedback"></span>
+      </div>
+      <div class="form-group has-feedback">
+        <input id="p2" type="password" class="form-control" placeholder="请再次输入您的密码">
         <span class="glyphicon glyphicon-log-in form-control-feedback"></span>
       </div>
       <div class="row">
         <div class="col-xs-8">
           <div class="checkbox icheck">
             <label>
-              <input type="checkbox"> 我同意签署 <a href="#">新科技书店协议</a>
+              <input id="agree" type="checkbox"> 我同意签署 <a href="agreement.html">新科技书店协议</a>
             </label>
           </div>
         </div>
         <!-- /.col -->
         <div class="col-xs-4">
-          <button type="submit" class="btn btn-primary btn-block btn-flat">注册</button>
+          <button id="register" type="submit" class="btn btn-primary btn-block btn-flat">注册</button>
         </div>
         <!-- /.col -->
       </div>
@@ -79,9 +84,68 @@
     $('input').iCheck({
       checkboxClass: 'icheckbox_square-blue',
       radioClass: 'iradio_square-blue',
-      increaseArea: '20%' /* optional */
+      increaseArea: '20%',
+        /* optional */
     });
+    var code = '';
+    $("#code").click(function () {
+        var INIT = "http://localhost:8080/init/getRegisterCode";
+        $("#code").attr("disabled", true);
+        $.ajax({
+            url:INIT,
+            type:"GET",
+            data:{
+                "email":$("#email").val()
+            },
+            dataType:"json",
+            success:function (data) {
+                $("#code").attr("disabled", false);
+                if ( data =='0') {
+                    alert('发送失败！');
+                } else if(data == '1') {
+                    alert('您的邮箱已经注册！');
+                } else {
+                    alert('发送成功！');
+                    code = data;
+                }
+            }
+        })
+    });
+    $("#register").click(function () {
+        var isCheck = $('input').is(':checked');
+        var INIT = "http://localhost:8080/init/register";
+        if (code == '') {
+            alert('请先获取验证码！')
+        } else if (($("#p1").val()) != ($("#p2").val())) {
+            alert('两次输入密码不一致！')
+        } else if(code != ($("#inputCode").val())) {
+            alert('输入的验证码不正确！')
+        } else if(!isCheck) {
+            alert('您还没有同意协议！')
+        } else {
+            $.ajax({
+                url:INIT,
+                type:"POST",
+                contentType : "application/json",
+                data:JSON.stringify({
+                    "email":$("#email").val(),
+                    "password":$("#p1").val(),
+                    "nickName":$("#nickName").val()
+                }),
+                dataType:"json",
+                success:function (data) {
+                    if (data) {
+                        alert('注册成功！快去登陆吧！');
+                        self.location = "login.html";
+                    } else {
+                        alert('您已经注册过了！');
+                    }
+                }
+            })
+        }
+
+    })
+
   });
 </script>
 </body>
-</html>

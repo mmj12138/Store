@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>AdminLTE 2 | Registration Page</title>
+  <!-- Tell the browser to be responsive to screen width -->
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+  <!-- Bootstrap 3.3.7 -->
+  <link rel="stylesheet" href="../../bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="../../bower_components/font-awesome/css/font-awesome.min.css">
+  <!-- Ionicons -->
+  <link rel="stylesheet" href="../../bower_components/Ionicons/css/ionicons.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="../../dist/css/AdminLTE.min.css">
+  <!-- iCheck -->
+  <link rel="stylesheet" href="../../plugins/iCheck/square/blue.css">
+
+  <![endif]-->
+
+  <!-- Google Font -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
+</head>
+<body class="hold-transition register-page">
+<div class="register-box">
+  <div class="register-logo">
+    <b>Feature</b>
+  </div>
+
+  <div class="register-box-body">
+    <p class="login-box-msg">请按照以下步骤操作</p>
+      <div class="form-group has-feedback">
+        <input id="email" type="email" class="form-control" placeholder="请输入您的邮箱">
+        <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
+      </div>
+      <button id="code" type="submit" class="btn btn-primary btn-block code-flat">获取验证码</button>
+      <div class="form-group has-feedback">
+        <input id="inputCode" type="password" class="form-control" placeholder="请输入您的验证码">
+        <span class="glyphicon glyphicon-lock form-control-feedback"></span>
+      </div>
+      <div class="form-group has-feedback">
+        <input id="p1" type="password" class="form-control" placeholder="请输入您的新密码">
+        <span class="glyphicon glyphicon-lock form-control-feedback"></span>
+      </div>
+      <div class="form-group has-feedback">
+        <input id="p2" type="password" class="form-control" placeholder="请再次输入您的新密码">
+        <span class="glyphicon glyphicon-log-in form-control-feedback"></span>
+      </div>
+      <div class="row">
+        <div class="col-xs-8">
+          <div class="checkbox icheck">
+            <label>
+              <input type="hidden" >         <a href="#">      </a>
+            </label>
+          </div>
+        </div>
+        <!-- /.col -->
+        <div class="col-xs-4">
+          <button id="done" type="submit" class="btn btn-primary btn-block btn-flat">完成</button>
+        </div>
+        <!-- /.col -->
+      </div>
+
+    <a href="login.html" class="text-center">返回登陆界面</a><br>
+    <a href="register.html" class="text-center">立即去注册</a>
+  </div>
+  <!-- /.form-box -->
+</div>
+<!-- /.register-box -->
+
+<!-- jQuery 3 -->
+<script src="../../bower_components/jquery/dist/jquery.min.js"></script>
+<!-- Bootstrap 3.3.7 -->
+<script src="../../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<!-- iCheck -->
+<script src="../../plugins/iCheck/icheck.min.js"></script>
+<script>
+  $(function () {
+    $('input').iCheck({
+      checkboxClass: 'icheckbox_square-blue',
+      radioClass: 'iradio_square-blue',
+      increaseArea: '20%' /* optional */
+    });
+    var code = '';
+    $("#code").click(function () {
+        var INIT = "http://localhost:8080/init/getUpdateCode";
+        $("#code").attr("disabled", true);
+        $.ajax({
+            url:INIT,
+            type:"GET",
+            data:{
+                "email":$("#email").val()
+            },
+            dataType:"json",
+            success:function (data) {
+                $("#code").attr("disabled", false);
+                if ( data =='0') {
+                    alert('发送失败！');
+                } else if(data == '1') {
+                    alert('您的邮箱还没有注册！');
+                } else {
+                    alert('发送成功！');
+                    code = data;
+                }
+            }
+        })
+    });
+    $("#done").click(function () {
+        var INIT = "http://localhost:8080/init/update";
+        if (code == '') {
+            alert('请先获取验证码！')
+        } else if (($("#p1").val()) == '' || '' == ($("#p2").val())) {
+            alert('密码不能为空！')
+        } else if (($("#p1").val()) != ($("#p2").val())) {
+            alert('两次输入密码不一致！')
+        } else if(code != ($("#inputCode").val())) {
+            alert('输入的验证码不正确！')
+        } else {
+            $.ajax({
+                url:INIT,
+                type:"POST",
+                contentType : "application/json",
+                data:JSON.stringify({
+                    "email":$("#email").val(),
+                    "password":$("#p1").val()
+                }),
+                dataType:"json",
+                success:function (data) {
+                    if (data) {
+                        alert('修改成功！');
+
+                    }
+                }
+            })
+        }
+
+    })
+
+  });
+</script>
+</body>
