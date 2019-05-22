@@ -23,7 +23,7 @@ public class CoreSpringConfig {
     public SqlSessionFactory coreSqlSessionFactoryBean(@Autowired final DataSource dataSource) throws Exception {
         final SqlSessionFactoryBean bean = new SqlSessionFactoryBean();
         bean.setDataSource(dataSource);
-        bean.setTypeAliasesPackage("com.mmj.core.model");
+//        bean.setTypeAliasesPackage("com.mmj.core.model");
         return bean.getObject();
     }
 }

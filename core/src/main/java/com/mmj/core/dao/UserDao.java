@@ -4,27 +4,27 @@ import java.util.List;
 
 import javax.annotation.Resource;
 
+import com.mmj.core.mapper.auto.UserLoginMapper;
+import com.mmj.core.model.auto.UserLogin;
+import com.mmj.core.model.auto.UserLoginExample;
 import org.springframework.stereotype.Component;
 
 import com.alibaba.druid.util.StringUtils;
-import com.mmj.core.mapper.auto.UserMapper;
-import com.mmj.core.model.auto.User;
-import com.mmj.core.model.auto.UserExample;
 
 @Component
 public class UserDao {
 
     @Resource
-    private UserMapper userMapper;
+    private UserLoginMapper userMapper;
 
     /**
      * 通过email查询password 逻辑查询唯一值
      */
-    public User selectPasswordByEmail(String email) {
-        UserExample example = new UserExample();
-        UserExample.Criteria criteria = example.createCriteria();
+    public UserLogin selectPasswordByEmail(String email) {
+        UserLoginExample example = new UserLoginExample();
+        UserLoginExample.Criteria criteria = example.createCriteria();
         criteria.andEmailEqualTo(email);
-        List<User> userList = userMapper.selectByExample(example);
+        List<UserLogin> userList = userMapper.selectByExample(example);
         if (userList.size() == 0) {
             return null;
         } else {
@@ -38,11 +38,11 @@ public class UserDao {
      * @param email
      * @param user
      */
-    public Boolean updateByEmail(String email, User user) {
+    public Boolean updateByEmail(String email, UserLogin user) {
         if (StringUtils.isEmpty(email)) {
             return false;
         }
-        UserExample example = new UserExample();
+        UserLoginExample example = new UserLoginExample();
         example.createCriteria().andEmailEqualTo(email);
         //更新数据
         userMapper.updateByExampleSelective(user, example);
