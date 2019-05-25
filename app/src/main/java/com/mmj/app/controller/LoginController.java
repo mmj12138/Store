@@ -66,7 +66,7 @@ public class LoginController {
     }
 
     /**
-     * 忘记密码时获取验证码
+     * 忘记密码
      * @param loginRequest
      * @return
      */

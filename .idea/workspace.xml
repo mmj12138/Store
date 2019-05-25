@@ -2,36 +2,170 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c724d646-d75b-4df0-b38c-3c9683efc4c6" name="Default Changelist" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/src/main/java/com/mmj/core/mapper/auto/UserMapper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/src/main/java/com/mmj/core/mapper/auto/UserMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/src/main/java/com/mmj/core/model/auto/User.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/src/main/java/com/mmj/core/model/auto/UserExample.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/target/classes/com/mmj/core/dto/UserDto.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/target/classes/com/mmj/core/mapper/auto/UserMapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/target/classes/com/mmj/core/mapper/auto/UserMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/target/classes/com/mmj/core/model/auto/User.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/target/classes/com/mmj/core/model/auto/UserExample$Criteria.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/target/classes/com/mmj/core/model/auto/UserExample$Criterion.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/target/classes/com/mmj/core/model/auto/UserExample$GeneratedCriteria.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/target/classes/com/mmj/core/model/auto/UserExample.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inf/target/classes/META-INF/inf.kotlin_module" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/com/mmj/core/config/CoreSpringConfig.class" afterPath="$PROJECT_DIR$/core/target/classes/com/mmj/core/config/CoreSpringConfig.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/com/mmj/core/dao/UserDao.class" afterPath="$PROJECT_DIR$/core/target/classes/com/mmj/core/dao/UserDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/com/mmj/core/serviceImpl/LoginServiceImpl.class" afterPath="$PROJECT_DIR$/core/target/classes/com/mmj/core/serviceImpl/LoginServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/in-admin-panel/images/Thumbs.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/in-admin-panel/images/arrow.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/in-admin-panel/images/bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/in-admin-panel/images/bg2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/in-admin-panel/images/botleft.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/in-admin-panel/images/botright.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/in-admin-panel/images/bt_blue_center.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/in-admin-panel/images/bt_blue_left.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/in-admin-panel/images/bt_blue_r.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/in-admin-panel/images/bt_green_center.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/in-admin-panel/images/bt_green_left.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/in-admin-panel/images/bt_green_r.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/in-admin-panel/images/bt_red_center.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/in-admin-panel/images/bt_red_left.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/in-admin-panel/images/bt_red_r.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/in-admin-panel/images/bubble.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/in-admin-panel/images/button.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/in-admin-panel/images/buttonn.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/in-admin-panel/images/buttony.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/in-admin-panel/images/comment.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/in-admin-panel/images/error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/in-admin-panel/images/footer_bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/in-admin-panel/images/green_bt.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/in-admin-panel/images/green_bt_a.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/in-admin-panel/images/help.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/in-admin-panel/images/indeziner_logo.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/in-admin-panel/images/info.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/in-admin-panel/images/left.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/in-admin-panel/images/list_bullet.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/in-admin-panel/images/login_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/in-admin-panel/images/logo.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/in-admin-panel/images/menu_bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/in-admin-panel/images/menu_bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/in-admin-panel/images/menu_bg_a.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/in-admin-panel/images/minus.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/in-admin-panel/images/notice.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/in-admin-panel/images/photo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/in-admin-panel/images/plus.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/in-admin-panel/images/red_bt.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/in-admin-panel/images/red_bt_a.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/in-admin-panel/images/right.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/in-admin-panel/images/search.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/in-admin-panel/images/sidebar_box_bottom.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/in-admin-panel/images/sidebar_box_top.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/in-admin-panel/images/sidebar_menu_top.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/in-admin-panel/images/sidebar_menu_top_a.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/in-admin-panel/images/trash.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/in-admin-panel/images/user_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/in-admin-panel/images/user_logout.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/in-admin-panel/images/valid.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/in-admin-panel/images/warning.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/in-admin-panel/img/0.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/in-admin-panel/img/Thumbs.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/in-admin-panel/img/button-left.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/in-admin-panel/img/button-left.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/in-admin-panel/img/button-right.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/in-admin-panel/img/button-right.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/in-admin-panel/img/button.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/in-admin-panel/img/button.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/in-admin-panel/img/checkbox.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/in-admin-panel/img/checkbox.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/in-admin-panel/img/file.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/in-admin-panel/img/file.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/in-admin-panel/img/input-left.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/in-admin-panel/img/input-left.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/in-admin-panel/img/input-right.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/in-admin-panel/img/input-right.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/in-admin-panel/img/input.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/in-admin-panel/img/input.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/in-admin-panel/img/radio.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/in-admin-panel/img/radio.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/in-admin-panel/img/select-left.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/in-admin-panel/img/select-left.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/in-admin-panel/img/select-right.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/in-admin-panel/img/select-right.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/in-admin-panel/img/textarea-bl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/in-admin-panel/img/textarea-bl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/in-admin-panel/img/textarea-br.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/in-admin-panel/img/textarea-br.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/in-admin-panel/img/textarea-l-off.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/in-admin-panel/img/textarea-l-off.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/in-admin-panel/img/textarea-l-over.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/in-admin-panel/img/textarea-r-off.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/in-admin-panel/img/textarea-r-off.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/in-admin-panel/img/textarea-r-over.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/in-admin-panel/img/textarea-tl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/in-admin-panel/img/textarea-tl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/in-admin-panel/img/textarea-tr.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/in-admin-panel/img/textarea-tr.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/mmj/app/controller/AdminController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/src/main/java/com/mmj/core/dao/AdminDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/src/main/java/com/mmj/core/dto/DeleteAdminRequest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/src/main/java/com/mmj/core/dto/SaveAdminRequest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/src/main/java/com/mmj/core/dto/UpdateAdminRequest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/src/main/java/com/mmj/core/service/AdminService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/src/main/java/com/mmj/core/serviceImpl/AdminServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/admin/admin.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/admin/bigKind.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/admin/book.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/admin/createAdmin.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/admin/editAdmin.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/admin/error.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/admin/login.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/admin/pay.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/admin/smallKind.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/admin/user.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/admin/welcome.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/in-admin-panel/clockh.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/in-admin-panel/clockp.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/in-admin-panel/ddaccordion.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/in-admin-panel/index-digital - 副本.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/in-admin-panel/index-digital.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/in-admin-panel/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/in-admin-panel/jconfirmaction.jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/in-admin-panel/jquery-1.4.2.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/in-admin-panel/jquery.jclock-1.2.0.js.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/in-admin-panel/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/in-admin-panel/license.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/in-admin-panel/niceforms-default.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/in-admin-panel/niceforms.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/in-admin-panel/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/app/src/main/resources/application.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/pom.xml" afterPath="$PROJECT_DIR$/core/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/main/java/com/mmj/core/config/CoreSpringConfig.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/mmj/core/config/CoreSpringConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/main/java/com/mmj/core/dao/UserDao.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/mmj/core/dao/UserDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/main/java/com/mmj/core/serviceImpl/LoginServiceImpl.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/mmj/core/serviceImpl/LoginServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/mmj/app/controller/LoginController.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/mmj/app/controller/LoginController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/main/resources/generatorConfig.xml" afterPath="$PROJECT_DIR$/core/src/main/resources/generatorConfig.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/generatorConfig.xml" afterPath="$PROJECT_DIR$/core/target/classes/generatorConfig.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/master/pages/user/index.html" afterPath="$PROJECT_DIR$/web/master/pages/user/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/master/bower_components/bootstrap-colorpicker/.travis.yml" afterPath="$PROJECT_DIR$/web/master/bower_components/bootstrap-colorpicker/.travis.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/master/index.html" afterPath="$PROJECT_DIR$/web/master/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/master/index2.html" afterPath="$PROJECT_DIR$/web/master/index2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/master/pages/UI/buttons.html" afterPath="$PROJECT_DIR$/web/master/pages/UI/buttons.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/master/pages/UI/general.html" afterPath="$PROJECT_DIR$/web/master/pages/UI/general.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/master/pages/UI/icons.html" afterPath="$PROJECT_DIR$/web/master/pages/UI/icons.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/master/pages/UI/modals.html" afterPath="$PROJECT_DIR$/web/master/pages/UI/modals.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/master/pages/UI/sliders.html" afterPath="$PROJECT_DIR$/web/master/pages/UI/sliders.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/master/pages/UI/timeline.html" afterPath="$PROJECT_DIR$/web/master/pages/UI/timeline.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/master/pages/calendar.html" afterPath="$PROJECT_DIR$/web/master/pages/calendar.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/master/pages/charts/chartjs.html" afterPath="$PROJECT_DIR$/web/master/pages/charts/chartjs.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/master/pages/charts/flot.html" afterPath="$PROJECT_DIR$/web/master/pages/charts/flot.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/master/pages/charts/inline.html" afterPath="$PROJECT_DIR$/web/master/pages/charts/inline.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/master/pages/charts/morris.html" afterPath="$PROJECT_DIR$/web/master/pages/charts/morris.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/master/pages/examples/404.html" afterPath="$PROJECT_DIR$/web/master/pages/examples/404.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/master/pages/examples/500.html" afterPath="$PROJECT_DIR$/web/master/pages/examples/500.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/master/pages/examples/blank.html" afterPath="$PROJECT_DIR$/web/master/pages/examples/blank.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/master/pages/examples/invoice.html" afterPath="$PROJECT_DIR$/web/master/pages/examples/invoice.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/master/pages/examples/lockscreen.html" afterPath="$PROJECT_DIR$/web/master/pages/examples/lockscreen.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/master/pages/examples/pace.html" afterPath="$PROJECT_DIR$/web/master/pages/examples/pace.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/master/pages/examples/profile.html" afterPath="$PROJECT_DIR$/web/master/pages/examples/profile.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/master/pages/forms/advanced.html" afterPath="$PROJECT_DIR$/web/master/pages/forms/advanced.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/master/pages/forms/editors.html" afterPath="$PROJECT_DIR$/web/master/pages/forms/editors.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/master/pages/forms/general.html" afterPath="$PROJECT_DIR$/web/master/pages/forms/general.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/master/pages/layout/boxed.html" afterPath="$PROJECT_DIR$/web/master/pages/layout/boxed.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/master/pages/layout/collapsed-sidebar.html" afterPath="$PROJECT_DIR$/web/master/pages/layout/collapsed-sidebar.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/master/pages/layout/fixed.html" afterPath="$PROJECT_DIR$/web/master/pages/layout/fixed.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/master/pages/mailbox/compose.html" afterPath="$PROJECT_DIR$/web/master/pages/mailbox/compose.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/master/pages/mailbox/mailbox.html" afterPath="$PROJECT_DIR$/web/master/pages/mailbox/mailbox.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/master/pages/mailbox/read-mail.html" afterPath="$PROJECT_DIR$/web/master/pages/mailbox/read-mail.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/master/pages/tables/data.html" afterPath="$PROJECT_DIR$/web/master/pages/tables/data.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/master/pages/tables/simple.html" afterPath="$PROJECT_DIR$/web/master/pages/tables/simple.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/master/pages/widgets.html" afterPath="$PROJECT_DIR$/web/master/pages/widgets.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/master/pages/user/agreement.html" afterPath="$PROJECT_DIR$/web/user/agreement.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/master/pages/user/index.html" afterPath="$PROJECT_DIR$/web/user/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/master/pages/user/login.html" afterPath="$PROJECT_DIR$/web/user/login.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/master/pages/user/register.html" afterPath="$PROJECT_DIR$/web/user/register.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/master/pages/user/update.html" afterPath="$PROJECT_DIR$/web/user/update.html" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -85,121 +219,124 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="generatorConfig.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/main/resources/generatorConfig.xml">
+      <file leaf-file-name="AdminController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mmj/app/controller/AdminController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="17" column="17" lean-forward="true" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CoreSpringConfig.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/core/src/main/java/com/mmj/core/config/CoreSpringConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1001">
-              <caret line="64" column="27" lean-forward="false" selection-start-line="64" selection-start-column="27" selection-end-line="64" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserLogin.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/main/java/com/mmj/core/model/auto/UserLogin.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="5" column="24" lean-forward="false" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="generatorConfig.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/target/classes/generatorConfig.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="22" column="36" lean-forward="false" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserLoginMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/main/java/com/mmj/core/mapper/auto/UserLoginMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="39">
-              <caret line="21" column="36" lean-forward="false" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+            <state relative-caret-position="357">
+              <caret line="67" column="7" lean-forward="true" selection-start-line="67" selection-start-column="7" selection-end-line="67" selection-end-column="7" />
               <folding>
-                <marker date="1558320644568" expanded="true" signature="4638:4660" ph="delete from " />
-                <marker date="1558320644568" expanded="true" signature="5039:5233" ph="insert into user_login... " />
-                <marker date="1558320644568" expanded="true" signature="6587:6618" ph="select count... user_login" />
-                <marker date="1558320644568" expanded="true" signature="7808:8027" ph="update user_... " />
+                <element signature="imports" expanded="true" />
+                <element signature="e#785#786#0" expanded="true" />
+                <element signature="e#830#831#0" expanded="true" />
+                <element signature="e#945#946#0" expanded="true" />
+                <element signature="e#1021#1022#0" expanded="true" />
+                <element signature="e#1166#1167#0" expanded="true" />
+                <element signature="e#1217#1218#0" expanded="true" />
+                <element signature="e#1362#1363#0" expanded="true" />
+                <element signature="e#1413#1414#0" expanded="true" />
+                <element signature="e#1552#1553#0" expanded="true" />
+                <element signature="e#1601#1602#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BigKind.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/main/java/com/mmj/core/model/auto/BigKind.java">
+      <file leaf-file-name="LoginController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mmj/app/controller/LoginController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="824">
-              <caret line="133" column="5" lean-forward="true" selection-start-line="133" selection-start-column="5" selection-end-line="133" selection-end-column="5" />
+            <state relative-caret-position="335">
+              <caret line="54" column="32" lean-forward="false" selection-start-line="54" selection-start-column="32" selection-end-line="54" selection-end-column="32" />
               <folding>
-                <element signature="e#1285#1286#0" expanded="true" />
-                <element signature="e#1310#1311#0" expanded="true" />
-                <element signature="e#1595#1596#0" expanded="true" />
-                <element signature="e#1623#1624#0" expanded="true" />
-                <element signature="e#1931#1932#0" expanded="true" />
-                <element signature="e#1965#1966#0" expanded="true" />
-                <element signature="e#2685#2686#0" expanded="true" />
-                <element signature="e#2718#2719#0" expanded="true" />
-                <element signature="e#3046#3047#0" expanded="true" />
-                <element signature="e#3125#3126#0" expanded="true" />
-                <element signature="e#3430#3431#0" expanded="true" />
-                <element signature="e#3463#3464#0" expanded="true" />
-                <element signature="e#3791#3792#0" expanded="true" />
-                <element signature="e#3870#3871#0" expanded="true" />
+                <element signature="e#1391#1392#0" expanded="true" />
+                <element signature="e#1444#1445#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BigKindMapper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/main/java/com/mmj/core/mapper/auto/BigKindMapper.java">
+      <file leaf-file-name="LoginServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/main/java/com/mmj/core/serviceImpl/LoginServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-847">
-              <caret line="11" column="6" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+            <state relative-caret-position="185">
+              <caret line="59" column="19" lean-forward="false" selection-start-line="59" selection-start-column="19" selection-end-line="59" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SaveAdminRequest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/main/java/com/mmj/core/dto/SaveAdminRequest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WebConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mmj/app/config/WebConfig.java">
+      <file leaf-file-name="createAdmin.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/admin/createAdmin.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-49">
-              <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="248">
+              <caret line="169" column="35" lean-forward="true" selection-start-line="169" selection-start-column="35" selection-end-line="169" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bigKind.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/admin/bigKind.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1855">
+              <caret line="105" column="70" lean-forward="false" selection-start-line="105" selection-start-column="70" selection-end-line="105" selection-end-column="70" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AdminService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/main/java/com/mmj/core/service/AdminService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="387">
+              <caret line="42" column="9" lean-forward="false" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AdminServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/main/java/com/mmj/core/serviceImpl/AdminServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="479">
+              <caret line="68" column="20" lean-forward="false" selection-start-line="68" selection-start-column="20" selection-end-line="68" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1566#1567#0" expanded="true" />
+                <element signature="e#1625#1626#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="admin.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/admin/admin.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="206">
+              <caret line="173" column="26" lean-forward="false" selection-start-line="169" selection-start-column="15" selection-end-line="173" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="editAdmin.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/admin/editAdmin.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="203" column="27" lean-forward="true" selection-start-line="158" selection-start-column="19" selection-end-line="203" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -211,8 +348,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -228,6 +365,10 @@
       <find>span</find>
       <find>Alex</find>
       <find>Criterion</find>
+      <find>Admin</find>
+      <find>small-box-footer</find>
+      <find>font-a</find>
+      <find>0</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -246,25 +387,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/app/pom.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/mmj/app/AppApplication.java" />
-        <option value="$PROJECT_DIR$/inf/src/main/java/com/mmj/inf/dto/Request.java" />
-        <option value="$PROJECT_DIR$/inf/src/main/java/com/mmj/inf/dto/Pager.java" />
-        <option value="$PROJECT_DIR$/inf/src/main/java/com/mmj/inf/dto/AbstractRequest.java" />
-        <option value="$PROJECT_DIR$/core/src/main/java/com/mmj/core/dto/LoginRequest.java" />
-        <option value="$PROJECT_DIR$/web/master/pages/layout/collapsed-sidebar.html" />
-        <option value="$PROJECT_DIR$/core/src/main/java/com/mmj/core/dto/MailAuthenticator.java" />
-        <option value="$PROJECT_DIR$/core/src/main/java/com/mmj/core/service/RegisterService.java" />
-        <option value="$PROJECT_DIR$/core/src/main/java/com/mmj/core/serviceImpl/RegisterServiceImpl.java" />
-        <option value="$PROJECT_DIR$/web/master/bower_components/bootstrap/dist/css/bootstrap.css" />
-        <option value="$PROJECT_DIR$/web/master/dist/css/AdminLTE.min.css" />
-        <option value="$PROJECT_DIR$/inf/pom.xml" />
-        <option value="$PROJECT_DIR$/inf/src/main/java/com/mmj/inf/dto/MailAuthenticator.java" />
-        <option value="$PROJECT_DIR$/core/src/main/java/com/mmj/core/dto/RegisterRequest.java" />
-        <option value="$PROJECT_DIR$/app/src/main/resources/index.html" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/mmj/app/config/WebConfig.java" />
-        <option value="$PROJECT_DIR$/inf/src/main/java/com/mmj/inf/ContentEnum.java" />
         <option value="$PROJECT_DIR$/inf/src/main/java/com/mmj/inf/enums/ContentEnum.java" />
         <option value="$PROJECT_DIR$/inf/src/main/java/com/mmj/inf/enums/ContentEnums.java" />
         <option value="$PROJECT_DIR$/inf/src/main/java/com/mmj/inf/util/MailOperationUtil.java" />
@@ -279,13 +401,11 @@
         <option value="$PROJECT_DIR$/app/src/main/resources/static/index.html" />
         <option value="$PROJECT_DIR$/web/master/img.html" />
         <option value="$PROJECT_DIR$/core/src/main/java/com/mmj/core/service/LoginService.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/mmj/app/controller/LoginController.java" />
         <option value="$PROJECT_DIR$/core/src/main/java/com/mmj/core/serviceImpl/UploadServiceImpl.java" />
         <option value="$PROJECT_DIR$/web/master/test.html" />
         <option value="$PROJECT_DIR$/web/master/pages/layout/top-nav.html" />
         <option value="$PROJECT_DIR$/web/master/pages/user/register.html" />
         <option value="$PROJECT_DIR$/web/master/pages/user/login.html" />
-        <option value="$PROJECT_DIR$/web/master/pages/user/index.html" />
         <option value="$PROJECT_DIR$/core/pom.xml" />
         <option value="$PROJECT_DIR$/core/src/main/java/com/mmj/core/dao/UserDao.java" />
         <option value="$PROJECT_DIR$/app/src/main/resources/application.yml" />
@@ -293,8 +413,31 @@
         <option value="$PROJECT_DIR$/core/target/classes/generatorConfig.xml" />
         <option value="$PROJECT_DIR$/core/src/main/java/com/mmj/core/model/auto/BigKind.java" />
         <option value="$PROJECT_DIR$/core/src/main/java/com/mmj/core/model/auto/UserLogin.java" />
-        <option value="$PROJECT_DIR$/core/src/main/resources/generatorConfig.xml" />
         <option value="$PROJECT_DIR$/core/src/main/java/com/mmj/core/config/CoreSpringConfig.java" />
+        <option value="$PROJECT_DIR$/web/master/pages/user/index.html" />
+        <option value="$PROJECT_DIR$/web/login/login.html" />
+        <option value="$PROJECT_DIR$/web/login/admin.html" />
+        <option value="$PROJECT_DIR$/core/src/main/resources/generatorConfig.xml" />
+        <option value="$PROJECT_DIR$/web/in-admin-panel/style.css" />
+        <option value="$PROJECT_DIR$/web/in-admin-panel/index.html" />
+        <option value="$PROJECT_DIR$/web/admin/welcome.html" />
+        <option value="$PROJECT_DIR$/web/admin/book.html" />
+        <option value="$PROJECT_DIR$/web/admin/pay.html" />
+        <option value="$PROJECT_DIR$/web/admin/smallKind.html" />
+        <option value="$PROJECT_DIR$/web/admin/user.html" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/mmj/core/mapper/biz/AdminMsgBizMapper.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mmj/app/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/mmj/core/dto/UpdateAdminRequest.java" />
+        <option value="$PROJECT_DIR$/web/admin/editAdmin.html" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/mmj/core/dto/DeleteAdminRequest.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/mmj/core/dao/AdminDao.java" />
+        <option value="$PROJECT_DIR$/web/admin/admin.html" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/mmj/core/dto/SaveAdminRequest.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/mmj/core/service/AdminService.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/mmj/core/serviceImpl/AdminServiceImpl.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mmj/app/controller/AdminController.java" />
+        <option value="$PROJECT_DIR$/web/admin/createAdmin.html" />
+        <option value="$PROJECT_DIR$/web/admin/bigKind.html" />
       </list>
     </option>
   </component>
@@ -372,8 +515,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -397,6 +540,152 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Store" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Store" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="user" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Store" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Store" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Store" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Store" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dist" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Store" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Store" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dist" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Store" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Store" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dist" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Store" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Store" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Store" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Store" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="core" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -454,6 +743,44 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="serviceImpl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Store" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Store" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -520,8 +847,38 @@
               <option name="myItemId" value="core" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="auto" />
+              <option name="myItemId" value="Store" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Store" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dto" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -555,7 +912,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
+              <option name="myItemId" value="dao" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -644,6 +1001,40 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Store" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Store" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -704,21 +1095,22 @@
     <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/web/master/bower_components/jquery-ui" />
-      <recent name="$PROJECT_DIR$/web/master/pages/user" />
-      <recent name="$PROJECT_DIR$/core/src/main/java/com/mmj/core" />
-      <recent name="$PROJECT_DIR$/app/src/main/java/com/mmj/app" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Code\IdeaCode\Teacher\Store\web" />
+      <recent name="E:\Code\IdeaCode\Teacher\Store\web\master" />
+      <recent name="E:\Code\IdeaCode\Teacher\Store\web\login" />
+      <recent name="E:\Code\IdeaCode\Teacher\Store\web\in-admin-panel" />
+      <recent name="E:\Code\IdeaCode\Teacher\Store\core\src\main\java\com\mmj\core\mapper\auto" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.mmj.core.dto" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\Code\IdeaCode\Teacher\Store\core\src\main\java\com\mmj\core\mapper\auto" />
-      <recent name="E:\Code\IdeaCode\Teacher\Store\core\src\main\resources" />
-      <recent name="$PROJECT_DIR$/web/master/pages/user" />
-      <recent name="$PROJECT_DIR$/app/src/main/resources/static/img" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Code\IdeaCode\Teacher\Store\core\src\main\java\com\mmj\core\mapper\biz" />
+      <recent name="E:\Code\IdeaCode\Teacher\Store\web\login" />
+      <recent name="E:\Code\IdeaCode\Teacher\Store\web" />
       <recent name="$PROJECT_DIR$/web/master/bower_components/jquery-ui" />
+      <recent name="$PROJECT_DIR$/web/master/pages/user" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1209,47 +1601,49 @@
       <workItem from="1556607084886" duration="1540000" />
       <workItem from="1556609140959" duration="56128000" />
       <workItem from="1558082350812" duration="3667000" />
-      <workItem from="1558272987584" duration="9856000" />
+      <workItem from="1558272987584" duration="10422000" />
+      <workItem from="1558525605512" duration="50086000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71191000" />
+    <option name="totallyTimeSpent" value="121843000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5574614" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6226415" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32933104" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5780446" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32933104" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3927959" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32933104" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2655068" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32933104" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22314675" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32933104" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1354,8 +1748,14 @@
           <properties />
           <option name="timeStamp" value="4" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/web/user/index.html</url>
+          <line>46</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="5" />
+      <option name="time" value="10" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1364,278 +1764,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/master/bower_components/jquery-ui/jquery-ui.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1464">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/master/bower_components/jquery-ui/jquery.form.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22968">
-          <caret line="1276" column="4" lean-forward="false" selection-start-line="1276" selection-start-column="4" selection-end-line="1276" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inf/src/main/java/com/mmj/inf/dto/RestResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="9" lean-forward="false" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/io/FileSystem.java" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/io/File.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/net/coobird/thumbnailator/0.4.8/thumbnailator-0.4.8.jar!/net/coobird/thumbnailator/Thumbnails.class" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/UUID.java" />
-    <entry file="file://$PROJECT_DIR$/web/master/img2.html" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/resources/static/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/mmj/core/service/UploadService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3053">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/master/img.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-495">
-          <caret line="11" column="43" lean-forward="false" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/master/pages/layout/collapsed-sidebar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="32" column="21" lean-forward="false" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/master/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="1254" column="58" lean-forward="false" selection-start-line="1254" selection-start-column="58" selection-end-line="1254" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/master/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="45" column="12" lean-forward="false" selection-start-line="45" selection-start-column="12" selection-end-line="45" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/master/bower_components/jquery-ui/jquery.cookie.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="54" column="17" lean-forward="false" selection-start-line="54" selection-start-column="17" selection-end-line="54" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/master/pages/user/update.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="131" column="0" lean-forward="false" selection-start-line="131" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/master/pages/user/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="41" column="5" lean-forward="false" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/core.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/mmj/core/mapper/auto/UserMapper.java" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/fe47ed1c-5497-411b-b1f7-d28abb6db067/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/mmj/core/mapper/auto/UserMapper.xml" />
-    <entry file="dbDummy://dbtable:/f3f6c3d7/fe47ed1c-5497-411b-b1f7-d28abb6db067/mybookstore.user">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/mmj/core/model/auto/User.java" />
-    <entry file="file://$PROJECT_DIR$/inf/src/main/java/com/mmj/inf/enums/ContentEnums.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/mmj/core/mapper/auto/UserLoginMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="46" column="20" lean-forward="false" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/mmj/core/service/LoginService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="30" column="16" lean-forward="false" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/master/pages/user/register.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-89">
-          <caret line="139" column="28" lean-forward="false" selection-start-line="139" selection-start-column="28" selection-end-line="139" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mmj/app/AppApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="10" column="7" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/mmj/core/mapper/auto/BigKindMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-667">
-          <caret line="136" column="24" lean-forward="false" selection-start-line="136" selection-start-column="24" selection-end-line="136" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mmj/app/controller/UploadContorller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="25" column="41" lean-forward="false" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/mmj/core/serviceImpl/UploadServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/dataSources.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inf/src/main/java/com/mmj/inf/util/MailOperationUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-372">
-          <caret line="31" column="30" lean-forward="false" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/master/pages/user/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1053">
-          <caret line="33" column="53" lean-forward="false" selection-start-line="33" selection-start-column="53" selection-end-line="33" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/target/classes/com/mmj/core/mapper/auto/BigKindMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/target/classes/com/mmj/core/mapper/auto/UserLoginMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1656">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mmj/app/controller/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="55">
-          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-          <folding>
-            <element signature="e#956#957#0" expanded="true" />
-            <element signature="e#1013#1014#0" expanded="true" />
-            <element signature="e#1171#1172#0" expanded="true" />
-            <element signature="e#1229#1230#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/mmj/core/serviceImpl/LoginServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="55">
-          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/mmj/core/dao/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="55">
-          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/target/classes/generatorConfig.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="506">
@@ -1648,13 +1776,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1001">
+        <state relative-caret-position="1472">
           <caret line="64" column="27" lean-forward="false" selection-start-line="64" selection-start-column="27" selection-end-line="64" selection-end-column="27" />
           <folding />
         </state>
@@ -1662,31 +1789,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/core/src/main/java/com/mmj/core/model/auto/UserLogin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
+        <state relative-caret-position="115">
           <caret line="5" column="24" lean-forward="false" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-          <folding />
+          <folding>
+            <element signature="e#1334#1335#0" expanded="false" />
+            <element signature="e#1359#1360#0" expanded="false" />
+            <element signature="e#1648#1649#0" expanded="false" />
+            <element signature="e#1676#1677#0" expanded="false" />
+            <element signature="e#1966#1967#0" expanded="false" />
+            <element signature="e#1994#1995#0" expanded="false" />
+            <element signature="e#2297#2298#0" expanded="false" />
+            <element signature="e#2361#2362#0" expanded="false" />
+            <element signature="e#2660#2661#0" expanded="false" />
+            <element signature="e#2691#2692#0" expanded="false" />
+            <element signature="e#3009#3010#0" expanded="false" />
+            <element signature="e#3082#3083#0" expanded="false" />
+            <element signature="e#3386#3387#0" expanded="false" />
+            <element signature="e#3418#3419#0" expanded="false" />
+            <element signature="e#3743#3744#0" expanded="false" />
+            <element signature="e#3819#3820#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
-          <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/resources/generatorConfig.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="17" column="17" lean-forward="true" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+          <caret line="8" column="18" lean-forward="false" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/src/main/java/com/mmj/core/mapper/auto/UserLoginMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="39">
+        <state relative-caret-position="483">
           <caret line="21" column="36" lean-forward="false" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
           <folding>
             <marker date="1558320644568" expanded="true" signature="4638:4660" ph="delete from " />
@@ -1699,47 +1835,403 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/core/src/main/java/com/mmj/core/model/auto/BigKind.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="824">
-          <caret line="133" column="5" lean-forward="true" selection-start-line="133" selection-start-column="5" selection-end-line="133" selection-end-column="5" />
-          <folding>
-            <element signature="e#1285#1286#0" expanded="true" />
-            <element signature="e#1310#1311#0" expanded="true" />
-            <element signature="e#1595#1596#0" expanded="true" />
-            <element signature="e#1623#1624#0" expanded="true" />
-            <element signature="e#1931#1932#0" expanded="true" />
-            <element signature="e#1965#1966#0" expanded="true" />
-            <element signature="e#2685#2686#0" expanded="true" />
-            <element signature="e#2718#2719#0" expanded="true" />
-            <element signature="e#3046#3047#0" expanded="true" />
-            <element signature="e#3125#3126#0" expanded="true" />
-            <element signature="e#3430#3431#0" expanded="true" />
-            <element signature="e#3463#3464#0" expanded="true" />
-            <element signature="e#3791#3792#0" expanded="true" />
-            <element signature="e#3870#3871#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="2737">
+          <caret line="133" column="5" lean-forward="false" selection-start-line="133" selection-start-column="5" selection-end-line="133" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/src/main/java/com/mmj/core/mapper/auto/BigKindMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-847">
-          <caret line="11" column="6" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
-          <folding />
+        <state relative-caret-position="184">
+          <caret line="11" column="6" lean-forward="false" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mmj/app/config/WebConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-49">
+        <state relative-caret-position="115">
           <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/master/bower_components/font-awesome/css/font-awesome.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1330">
+          <caret line="3" column="9195" lean-forward="false" selection-start-line="3" selection-start-column="9195" selection-end-line="3" selection-end-column="9195" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/master/dist/css/AdminLTE.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-13691">
+          <caret line="9" column="37604" lean-forward="false" selection-start-line="9" selection-start-column="37595" selection-end-line="9" selection-end-column="37604" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/src/main/java/com/mmj/core/config/CoreSpringConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        <state relative-caret-position="318">
+          <caret line="26" column="27" lean-forward="false" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/master/img.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-297">
+          <caret line="11" column="43" lean-forward="false" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/master/dist/img/mm/-1ab452b251c8658d.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/admin/welcome2.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="81" column="80" lean-forward="true" selection-start-line="81" selection-start-column="80" selection-end-line="81" selection-end-column="80" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/in-admin-panel/index-digital.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/admin/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-231">
+          <caret line="53" column="31" lean-forward="false" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/resources/generatorConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="21" column="35" lean-forward="false" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/in-admin-panel/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="201" column="22" lean-forward="true" selection-start-line="192" selection-start-column="16" selection-end-line="201" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/admin/pay.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="80" column="22" lean-forward="false" selection-start-line="80" selection-start-column="22" selection-end-line="80" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/admin/smallKind.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="80" column="22" lean-forward="false" selection-start-line="80" selection-start-column="22" selection-end-line="80" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/admin/user.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="80" column="22" lean-forward="false" selection-start-line="80" selection-start-column="22" selection-end-line="80" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/admin/welcome.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="66" column="70" lean-forward="true" selection-start-line="66" selection-start-column="70" selection-end-line="66" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/in-admin-panel/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="207" column="1" lean-forward="false" selection-start-line="207" selection-start-column="1" selection-end-line="207" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/admin/book.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="114" column="25" lean-forward="true" selection-start-line="104" selection-start-column="20" selection-end-line="114" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/user/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="41" column="51" lean-forward="false" selection-start-line="41" selection-start-column="51" selection-end-line="41" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/mmj/core/mapper/biz/AdminMsgBizMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="34" lean-forward="false" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/mmj/core/mapper/auto/AdminMsgMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/mmj/core/mapper/auto/AdminMsgMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1558590778671" expanded="true" signature="4940:4961" ph="delete from " />
+            <marker date="1558590778671" expanded="true" signature="5339:5692" ph="insert into admin_msg... " />
+            <marker date="1558590778671" expanded="true" signature="7615:7645" ph="select count... admin_msg" />
+            <marker date="1558590778671" expanded="true" signature="9253:9673" ph="update admin... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/mmj/core/mapper/biz/AdminMsgBizMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="32" column="9" lean-forward="true" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/mmj/core/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="31" column="9" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="31" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/user/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="463">
+          <caret line="55" column="50" lean-forward="true" selection-start-line="55" selection-start-column="50" selection-end-line="55" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/mmj/core/dto/RegisterRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="33" column="1" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="33" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/mmj/core/service/LoginService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="30" column="16" lean-forward="true" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/user/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="115" column="56" lean-forward="false" selection-start-line="115" selection-start-column="19" selection-end-line="115" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/in-admin-panel/niceforms-default.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="11" column="11" lean-forward="true" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/mmj/core/model/auto/AdminMsg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.4.RELEASE/spring-boot-autoconfigure-2.1.4.RELEASE.jar!/org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="254" column="44" lean-forward="false" selection-start-line="254" selection-start-column="44" selection-end-line="254" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/mmj/core/dto/UpdateAdminRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="34" column="5" lean-forward="true" selection-start-line="31" selection-start-column="3" selection-end-line="34" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#622#623#0" expanded="true" />
+            <element signature="e#661#662#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/mmj/core/dto/DeleteAdminRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="12" column="36" lean-forward="true" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#383#384#0" expanded="true" />
+            <element signature="e#422#423#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/mmj/core/dao/AdminDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="49" column="56" lean-forward="true" selection-start-line="49" selection-start-column="56" selection-end-line="49" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/admin/admin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="173" column="26" lean-forward="false" selection-start-line="169" selection-start-column="15" selection-end-line="173" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/admin/editAdmin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="203" column="27" lean-forward="true" selection-start-line="158" selection-start-column="19" selection-end-line="203" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/mmj/core/dto/SaveAdminRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/mmj/core/serviceImpl/LoginServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="59" column="19" lean-forward="false" selection-start-line="59" selection-start-column="19" selection-end-line="59" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/mmj/core/service/AdminService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="42" column="9" lean-forward="false" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/mmj/core/serviceImpl/AdminServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="479">
+          <caret line="68" column="20" lean-forward="false" selection-start-line="68" selection-start-column="20" selection-end-line="68" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1566#1567#0" expanded="true" />
+            <element signature="e#1625#1626#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mmj/app/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="54" column="32" lean-forward="false" selection-start-line="54" selection-start-column="32" selection-end-line="54" selection-end-column="32" />
+          <folding>
+            <element signature="e#1391#1392#0" expanded="true" />
+            <element signature="e#1444#1445#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mmj/app/controller/AdminController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="67" column="7" lean-forward="true" selection-start-line="67" selection-start-column="7" selection-end-line="67" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#785#786#0" expanded="true" />
+            <element signature="e#830#831#0" expanded="true" />
+            <element signature="e#945#946#0" expanded="true" />
+            <element signature="e#1021#1022#0" expanded="true" />
+            <element signature="e#1166#1167#0" expanded="true" />
+            <element signature="e#1217#1218#0" expanded="true" />
+            <element signature="e#1362#1363#0" expanded="true" />
+            <element signature="e#1413#1414#0" expanded="true" />
+            <element signature="e#1552#1553#0" expanded="true" />
+            <element signature="e#1601#1602#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/admin/createAdmin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="169" column="35" lean-forward="true" selection-start-line="169" selection-start-column="35" selection-end-line="169" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/admin/bigKind.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1855">
+          <caret line="105" column="70" lean-forward="false" selection-start-line="105" selection-start-column="70" selection-end-line="105" selection-end-column="70" />
           <folding />
         </state>
       </provider>
