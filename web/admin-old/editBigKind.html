@@ -1,0 +1,189 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>IN ADMIN PANEL | Powered by INDEZINER</title>
+    <link rel="stylesheet" type="text/css" href="../in-admin-panel/style.css"/>
+    <script type="text/javascript" src="../in-admin-panel/clockp.js"></script>
+    <script type="text/javascript" src="../in-admin-panel/clockh.js"></script>
+    <script type="text/javascript" src="../in-admin-panel/jquery.min.js"></script>
+    <script type="text/javascript" src="../in-admin-panel/ddaccordion.js"></script>
+    <script type="text/javascript">
+        ddaccordion.init({
+            headerclass: "submenuheader", //Shared CSS class name of headers group
+            contentclass: "submenu", //Shared CSS class name of contents group
+            revealtype: "click", //Reveal content when user clicks or onmouseover the header? Valid value: "click", "clickgo", or "mouseover"
+            mouseoverdelay: 200, //if revealtype="mouseover", set delay in milliseconds before header expands onMouseover
+            collapseprev: true, //Collapse previous content (so only one open at any time)? true/false
+            defaultexpanded: [], //index of content(s) open by default [index1, index2, etc] [] denotes no content
+            onemustopen: false, //Specify whether at least one header should be open always (so never all headers closed)
+            animatedefault: false, //Should contents open by default be animated into view?
+            persiststate: true, //persist state of opened contents within browser session?
+            toggleclass: ["", ""], //Two CSS classes to be applied to the header when it's collapsed and expanded, respectively ["class1", "class2"]
+            togglehtml: ["suffix", "<img src='../in-admin-panel/images/plus.gif' class='statusicon' />", "<img src='../in-admin-panel/images/minus.gif' class='statusicon' />"], //Additional HTML added to the header when it's collapsed and expanded, respectively  ["position", "html1", "html2"] (see docs)
+            animatespeed: "fast", //speed of animation: integer in milliseconds (ie: 200), or keywords "fast", "normal", or "slow"
+            oninit: function (headers, expandedindices) { //custom code to run when headers have initalized
+                //do nothing
+            },
+            onopenclose: function (header, index, state, isuseractivated) { //custom code to run whenever a header is opened or closed
+                //do nothing
+            }
+        })
+    </script>
+    <!-- jQuery 3 -->
+    <script type="text/javascript" src="../master/bower_components/jquery/dist/jquery.min.js"></script>
+    <!-- jQuery UI 1.11.4 -->
+    <script type="text/javascript" src="../master/bower_components/jquery-ui/jquery-ui.min.js"></script>
+
+    <!-- 图片上传jQueryForm -->
+    <script type="text/javascript" src="../master/bower_components/jquery-ui/jquery.form.js"></script>
+    <script type="text/javascript" src="../in-admin-panel/jconfirmaction.jquery.js"></script>
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+            var id = GetQueryString("id");
+            alert(id);
+            $('.ask').jConfirmAction();
+        });
+        function uploadFile() {
+            var options = {
+                // 请求上传图片服务接口
+                url: "http://localhost:8080/uploadFile",
+                // 请求方式
+                type: "post",
+                // 回调函数
+                success: function(data) {
+                    // 显示上传成功的图片
+                    $("#imgSrc").attr("src", '../master/dist/img/mm/'+data);
+                    // 保存服务器图片路径，用于保存数据库
+                    $(".saveImgPath").val(data);
+                }
+            };
+            $("#uploadForm").ajaxSubmit(options);
+        }
+        function GetQueryString(name) {
+            var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
+            var r = window.location.search.substr(1).match(reg);//search,查询？后面的参数，并匹配正则
+            if (r != null)return unescape(r[2]);
+            return null;
+        }
+        function ff() {
+            var INIT = "http://localhost:8080/admin/save";
+            $.ajax({
+                url:INIT,
+                type:"POST",
+                contentType : "application/json",
+                data:JSON.stringify({
+                    "name":$("#name").val(),
+                    "sex":sex,
+                    "username":$("#username").val(),
+                    "password":$("#password").val(),
+                    "telephone":$("#telephone").val(),
+                    "email":$("#email").val(),
+                    "level": level
+                }),
+                dataType:"json",
+                success:function (data) {
+                    if (data) {
+                        alert('新建成功！');
+                        self.location = "admin.html";
+                    } else {
+                        alert('新建失败！');
+                    }
+                }
+            });
+//            event.preventDefault();
+
+        }
+
+    </script>
+
+    <script language="javascript" type="text/javascript" src="../in-admin-panel/niceforms.js"></script>
+    <link rel="stylesheet" type="text/css" media="all" href="../in-admin-panel/niceforms-default.css"/>
+
+</head>
+<body>
+<div id="main_container">
+
+    <div class="header">
+        <div class="logo"><a href="#"><img src="../in-admin-panel/images/logo.gif" alt="" title="" border="0"/></a>
+        </div>
+
+        <div class="right_header">Welcome Admin, <a href="#">Visit site</a> | <a href="#" class="messages">(3)
+            Messages</a> | <a href="#" class="logout">Logout</a></div>
+        <div id="clock_a"></div>
+    </div>
+
+    <div class="main_content">
+        <div class="menu">
+            <ul>
+                <li><a class="current" href="admin.html">Admin Home</a></li>
+            </ul>
+        </div>
+        <div class="center_content">
+            <div class="left_content">
+                <div class="sidebarmenu">
+                    <a class="menuitem" href="admin.html">管理员管理</a>
+                    <a class="menuitem submenuheader" href="">图书管理</a>
+                    <div class="submenu">
+                        <ul>
+                            <li><a href="bigKind.html">大种类管理</a></li>
+                            <li><a href="smallKind.html">小种类管理</a></li>
+                            <li><a href="book.html">图书管理</a></li>
+                        </ul>
+                    </div>
+                    <a class="menuitem" href="pay.html">订单管理</a>
+                    <a class="menuitem" href="user.html">用户管理</a>
+
+                </div>
+
+
+            </div>
+
+            <div class="right_content">
+
+                <h2>新建大种类</h2>
+
+                <div class="form">
+                    <form onsubmit="ff()" id="f" class="niceform">
+                        <fieldset>
+                            <dl>
+                                <dt><label>种类名称:</label></dt>
+                                <dd><input type="text" name="name" id="name" size="45"/></dd>
+                            </dl>
+                            <dl>
+                                <dt><label>种类描述:</label></dt>
+                                <dd><input type="text" name="name" id="username" size="45"/></dd>
+                            </dl>
+                            <dl>
+                            </dl>
+                        </fieldset>
+                    </form>
+                    <form id="uploadForm" method="post" enctype="multipart/form-data">
+                        <!-- 在选择图片的时，触发Ajax异步上传图片 -->
+                        <dt><label>上传种类图片：</label></dt>
+                        <dd><input name="file" type="file" onchange="uploadFile()"/></dd>
+                        <dd><img id="imgSrc" class="img-circle"/></dd>
+                        <input type="hidden" class="saveImgPath" />
+                    </form>
+                    <!--<div class="sidebarmenu">-->
+                    <!--<a class="menuitem" href="" onclick="ff()">创建大种类</a>-->
+                    <!--</div>-->
+                    <a href="#" class="bt_blue" onclick="ff()"><span class="bt_blue_lft"></span><strong>确认创建</strong><span class="bt_blue_r"></span></a>
+
+
+                </div><!-- end of right content-->
+
+
+            </div>   <!--end of center content -->
+
+
+            <div class="clear"></div>
+        </div> <!--end of main content-->
+
+
+    </div>
+</div>
+</body>
+</html>

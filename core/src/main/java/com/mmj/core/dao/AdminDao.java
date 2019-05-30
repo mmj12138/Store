@@ -33,7 +33,7 @@ public class AdminDao {
     }
 
     /**
-     * 通过id查询admin逻辑查询唯一值
+     * 通过id删除
      */
     public Boolean deleteById(Integer id) {
         AdminMsgExample example = new AdminMsgExample();
@@ -44,7 +44,7 @@ public class AdminDao {
     }
 
     /**
-     * 通过id查询admin逻辑查询唯一值
+     * 通过id及实体更新
      */
     public Boolean updateById(Integer id, AdminMsg adminMsg) {
         AdminMsgExample example = new AdminMsgExample();

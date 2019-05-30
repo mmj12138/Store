@@ -36,7 +36,7 @@ public class AdminController {
     }
 
     /**
-     * 获取列表
+     * 获取详情
      * @return
      */
     @RequestMapping("/detail")

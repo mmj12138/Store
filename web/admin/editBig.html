@@ -151,48 +151,29 @@
                 <div class="col-md-6">
                     <div class="box box-warning">
                         <div class="box-header with-border">
-                            <h3 class="box-title">新建管理员</h3>
+                            <h3 class="box-title">编辑大种类</h3>
                         </div>
                         <!-- /.box-header -->
                         <div class="box-body">
                             <!--<form role="form">-->
                             <!-- text input -->
                             <div class="form-group">
-                                <label>姓名</label>
-                                <input id="name" type="text" class="form-control" placeholder="请输入姓名 ...">
-                                <input type="hidden" id="id"/>
-                            </div>
-                            <!-- select -->
-                            <div class="form-group">
-                                <label>性别</label>
-                                <select id="sex" class="form-control">
-                                    <option value="男">男</option>
-                                    <option value="女">女</option>
-                                </select>
+                                <label>种类名称</label>
+                                <input id="name" type="text" class="form-control" placeholder="请输入种类名称 ...">
+                                <input id="id" type="hidden"/>
                             </div>
                             <div class="form-group">
-                                <label>用户名</label>
-                                <input id="username" type="text" class="form-control" placeholder="请输入用户名 ...">
+                                <label>种类描述</label>
+                                <input id="msg" type="text" class="form-control" placeholder="请输入相关描述 ...">
                             </div>
                             <div class="form-group">
-                                <label>密码</label>
-                                <input id="password" type="text" class="form-control" placeholder="请输入密码 ...">
-                            </div>
-                            <div class="form-group">
-                                <label>手机号</label>
-                                <input id="telephone" type="text" class="form-control" placeholder="请输入手机号 ...">
-                            </div>
-                            <div class="form-group">
-                                <label>邮箱</label>
-                                <input id="email" type="text" class="form-control" placeholder="请输入邮箱 ...">
-                            </div>
-                            <div class="form-group">
-                                <label>性别</label>
-                                <select id="level" class="form-control">
-                                    <option value="1">一级</option>
-                                    <option value="2">二级</option>
-                                    <option value="3">三级</option>
-                                </select>
+                                <form id="uploadForm" method="post" enctype="multipart/form-data">
+                                    <!-- 在选择图片的时，触发Ajax异步上传图片 -->
+                                    <label>上传种类图片：</label>
+                                    <input name="file" type="file" onchange="uploadFile()"/><br/>
+                                    <img id="imgSrc" class="img-responsive"/>
+                                    <input type="hidden" id="saveImgPath" />
+                                </form>
                             </div>
                             <div class="box-footer">
                                 <button id="button" type="button" class="btn btn-primary" onclick="ff()">提交编辑</button>
@@ -226,13 +207,17 @@
 <script src="../master/bower_components/fastclick/lib/fastclick.js"></script>
 <!-- AdminLTE App -->
 <script src="../master/dist/js/adminlte.min.js"></script>
+
+<!-- 图片上传jQueryForm -->
+<script type="text/javascript" src="../master/bower_components/jquery-ui/jquery.form.js"></script>
+<!-- Ajax异步上传图片 -->
 <script type="text/javascript">
     $(document).ready(function () {
 //        $('.ask').jConfirmAction();
         var id = GetQueryString("id");
 //            alert(id);
         $("#id").val(id);
-        var INIT = "http://localhost:8080/admin/detail";
+        var INIT = "http://localhost:8080/big/detail";
         $.ajax({
             url: INIT,
             type: "GET",
@@ -243,27 +228,10 @@
             dataType: "json",
             success: function (data) {
 //                    alert(data.username);
-                $("#name").val(data.adminName);
-                var value = data.sex;
-                var opList = document.getElementById("sex").childNodes;
-                for (var i = 0, len = opList.length; i < len; i++) {
-                    if (opList[i].value == value) {
-                        opList[i].selected = true;
-                        break;
-                    }
-                }
-                $("#username").val(data.username);
-                $("#password").val(data.password);
-                $("#telephone").val(data.telephone);
-                $("#email").val(data.email);
-                var level = data.level;
-                var opList = document.getElementById("level").childNodes;
-                for (var i = 0, len = opList.length; i < len; i++) {
-                    if (opList[i].value == level) {
-                        opList[i].selected = true;
-                        break;
-                    }
-                }
+                $("#name").val(data.bigKindName);
+                $("#msg").val(data.bigKindMsg);
+                $("#saveImgPath").val(data.bigKindImg);
+                $("#imgSrc").attr("src", '../master/dist/img/mm/'+data.bigKindImg);
             }
         })
     });
@@ -273,34 +241,40 @@
         if (r != null)return unescape(r[2]);
         return null;
     }
+    function uploadFile() {
+        var options = {
+            // 请求上传图片服务接口
+            url: "http://localhost:8080/uploadFile",
+            // 请求方式
+            type: "post",
+            // 回调函数
 
+            success: function(data) {
+                // 显示上传成功的图片
+                $("#imgSrc").attr("src", '../master/dist/img/mm/'+data);
+                // 保存服务器图片路径，用于保存数据库
+                $("#saveImgPath").val(data);
+            }
+        };
+        $("#uploadForm").ajaxSubmit(options);
+    }
     function ff() {
-        var sexobj = document.getElementById("sex"); //定位id
-        var sexindex = sexobj.selectedIndex; // 选中索引
-        var sex = sexobj.options[sexindex].value; // 选中值
-        var obj = document.getElementById("level"); //定位id
-        var index = obj.selectedIndex; // 选中索引
-        var level = obj.options[index].value; // 选中值
-        var INIT = "http://localhost:8080/admin/update";
+        var INIT = "http://localhost:8080/big/update";
         $.ajax({
             url:INIT,
             type:"POST",
             contentType : "application/json",
             data:JSON.stringify({
                 "id":$("#id").val(),
-                "name":$("#name").val(),
-                "sex":sex,
-                "username":$("#username").val(),
-                "password":$("#password").val(),
-                "telephone":$("#telephone").val(),
-                "email":$("#email").val(),
-                "level": level
+                "bigKindName":$("#name").val(),
+                "bigKindMsg":$("#msg").val(),
+                "bigKindImg":$("#saveImgPath").val()
             }),
             dataType:"json",
             success:function (data) {
                 if (data) {
                     alert('更新成功！');
-                    self.location = "admin.html";
+                    self.location = "bigKind.html";
                 } else {
                     alert('更新失败！');
                 }

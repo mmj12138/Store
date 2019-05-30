@@ -1,6 +1,5 @@
 package com.mmj.core.dto;
 
-import com.alibaba.druid.util.StringUtils;
 import com.mmj.inf.dto.AbstractRequest;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
@@ -8,30 +7,23 @@ import lombok.EqualsAndHashCode;
 import java.util.Optional;
 
 /**
- * Created by Administrator on 2019/5/24.
+ * Created by Administrator on 2019/5/29.
  */
 @Data
 @EqualsAndHashCode(callSuper = true)
-public class UpdateAdminRequest extends AbstractRequest {
+public class UpdateBigRequest extends AbstractRequest{
 
     private Integer id;
 
-    private String name;
+    private String bigKindName;
 
-    private String sex;
+    private String bigKindMsg;
 
-    private String username;
-
-    private String password;
-
-    private String telephone;
-
-    private String email;
-
-    private String level;
+    private String bigKindImg;
 
     @Override
     public Optional<String> validateParam() {
         return Optional.empty();
     }
+
 }

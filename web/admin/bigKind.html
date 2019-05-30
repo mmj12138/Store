@@ -1,137 +1,279 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html>
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title>IN ADMIN PANEL | Powered by INDEZINER</title>
-    <link rel="stylesheet" type="text/css" href="../in-admin-panel/style.css"/>
-    <script type="text/javascript" src="../in-admin-panel/clockp.js"></script>
-    <script type="text/javascript" src="../in-admin-panel/clockh.js"></script>
-    <script type="text/javascript" src="../in-admin-panel/jquery.min.js"></script>
-    <script type="text/javascript" src="../in-admin-panel/ddaccordion.js"></script>
-    <script type="text/javascript">
-        ddaccordion.init({
-            headerclass: "submenuheader", //Shared CSS class name of headers group
-            contentclass: "submenu", //Shared CSS class name of contents group
-            revealtype: "click", //Reveal content when user clicks or onmouseover the header? Valid value: "click", "clickgo", or "mouseover"
-            mouseoverdelay: 200, //if revealtype="mouseover", set delay in milliseconds before header expands onMouseover
-            collapseprev: true, //Collapse previous content (so only one open at any time)? true/false
-            defaultexpanded: [], //index of content(s) open by default [index1, index2, etc] [] denotes no content
-            onemustopen: false, //Specify whether at least one header should be open always (so never all headers closed)
-            animatedefault: false, //Should contents open by default be animated into view?
-            persiststate: true, //persist state of opened contents within browser session?
-            toggleclass: ["", ""], //Two CSS classes to be applied to the header when it's collapsed and expanded, respectively ["class1", "class2"]
-            togglehtml: ["suffix", "<img src='../in-admin-panel/images/plus.gif' class='statusicon' />", "<img src='../in-admin-panel/images/minus.gif' class='statusicon' />"], //Additional HTML added to the header when it's collapsed and expanded, respectively  ["position", "html1", "html2"] (see docs)
-            animatespeed: "fast", //speed of animation: integer in milliseconds (ie: 200), or keywords "fast", "normal", or "slow"
-            oninit: function (headers, expandedindices) { //custom code to run when headers have initalized
-                //do nothing
-            },
-            onopenclose: function (header, index, state, isuseractivated) { //custom code to run whenever a header is opened or closed
-                //do nothing
-            }
-        })
-    </script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>AdminLTE 2 | Data Tables</title>
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <!-- Bootstrap 3.3.7 -->
+    <link rel="stylesheet" href="../master/bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="../master/bower_components/font-awesome/css/font-awesome.min.css">
+    <!-- Ionicons -->
+    <link rel="stylesheet" href="../master/bower_components/Ionicons/css/ionicons.min.css">
+    <!-- DataTables -->
+    <link rel="stylesheet" href="../master/bower_components/datatables.net-bs/css/dataTables.bootstrap.min.css">
+    <!-- Theme style -->
+    <link rel="stylesheet" href="../master/dist/css/AdminLTE.min.css">
+    <!-- AdminLTE Skins. Choose a skin from the css/skins
+         folder instead of downloading all of them to reduce the load. -->
+    <link rel="stylesheet" href="../master/dist/css/skins/_all-skins.min.css">
 
-    <script type="text/javascript" src="../in-admin-panel/jconfirmaction.jquery.js"></script>
-    <script type="text/javascript">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
 
-        $(document).ready(function () {
-            $('.ask').jConfirmAction();
-        });
-
-    </script>
-
-    <script language="javascript" type="text/javascript" src="../in-admin-panel/niceforms.js"></script>
-    <link rel="stylesheet" type="text/css" media="all" href="../in-admin-panel/niceforms-default.css"/>
-
+    <!-- Google Font -->
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
 </head>
-<body>
-<div id="main_container">
+<body class="hold-transition skin-blue sidebar-mini">
+<div class="wrapper">
 
-    <div class="header">
-        <div class="logo"><a href="#"><img src="../in-admin-panel/images/logo.gif" alt="" title="" border="0"/></a>
-        </div>
+    <header class="main-header">
+        <!-- Logo -->
+        <a href="../master/index2.html" class="logo">
+            <!-- mini logo for sidebar mini 50x50 pixels -->
+            <span class="logo-mini"><b>A</b>LT</span>
+            <!-- logo for regular state and mobile devices -->
+            <span class="logo-lg"><b>Admin</b>LTE</span>
+        </a>
+        <!-- Header Navbar: style can be found in header.less -->
+        <nav class="navbar navbar-static-top">
+            <!-- Sidebar toggle button-->
+            <a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </a>
 
-        <div class="right_header">Welcome Admin, <a href="#">Visit site</a> | <a href="#" class="messages">(3)
-            Messages</a> | <a href="#" class="logout">Logout</a></div>
-        <div id="clock_a"></div>
-    </div>
+            <div class="navbar-custom-menu">
+                <ul class="nav navbar-nav">
+                    <!-- Messages: style can be found in dropdown.less-->
+                    <!-- Tasks: style can be found in dropdown.less -->
+                    <!-- User Account: style can be found in dropdown.less -->
+                    <li class="dropdown user user-menu">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            <span class="hidden-xs">Alexander Pierce</span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <!-- User image -->
+                            <li class="user-header">
+                                <img src="../master/dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
 
-    <div class="main_content">
-        <div class="menu">
-            <ul>
-                <li><a class="current" href="admin.html">Admin Home</a></li>
-            </ul>
-        </div>
-        <div class="center_content">
-            <div class="left_content">
-                <div class="sidebarmenu">
-                    <a class="menuitem" href="admin.html">管理员管理</a>
-                    <a class="menuitem submenuheader" href="">图书管理</a>
-                    <div class="submenu">
-                        <ul>
-                            <li><a href="bigKind.html">大种类管理</a></li>
-                            <li><a href="smallKind.html">小种类管理</a></li>
-                            <li><a href="book.html">图书管理</a></li>
+                                <p>
+                                    Alexander Pierce - Web Developer
+                                    <small>Member since Nov. 2012</small>
+                                </p>
+                            </li>
+                            <!-- Menu Body -->
+                            <!-- Menu Footer-->
+                            <li class="user-footer">
+                                <div class="pull-left">
+                                    <a href="#" class="btn btn-default btn-flat">设置</a>
+                                </div>
+                                <div class="pull-right">
+                                    <a href="#" class="btn btn-default btn-flat">登出</a>
+                                </div>
+                            </li>
                         </ul>
-                    </div>
-                    <a class="menuitem" href="pay.html">订单管理</a>
-                    <a class="menuitem" href="user.html">用户管理</a>
-
-                </div>
-
+                    </li>
+                    <!-- Control Sidebar Toggle Button -->
+                </ul>
             </div>
-
-            <div class="right_content">
-
-                <h2>Products Categories Settings</h2>
-
-
-                <table id="rounded-corner" summary="2007 Major IT Companies' Profit">
-                    <thead>
-                    <tr>
-                        <th scope="col" class="rounded">种类名称</th>
-                        <th scope="col" class="rounded">种类描述</th>
-                        <th scope="col" class="rounded">种类图片</th>
-                        <th scope="col" class="rounded">Edit</th>
-                        <th scope="col" class="rounded-q4">Delete</th>
-                    </tr>
-                    </thead>
-                    <tfoot>
-                    </tfoot>
-                    <tbody>
-                    <tr>
-                        <td>Product name</td>
-                        <td>details</td>
-                        <td><img src="../master/dist/img/mm/张云龙002.jpg" alt="" title=""
-                                 border="0"/></td>
-
-                        <td><a href="#"><img src="../in-admin-panel/images/user_edit.png" alt="" title=""
-                                             border="0"/></a></td>
-                        <td><a href="#" class="ask"><img src="../in-admin-panel/images/trash.png" alt="" title=""
-                                                         border="0"/></a></td>
-                    </tr>
-
-                    </tbody>
-                </table>
-
-                <a href="createAdmin.html" class="bt_green"><span class="bt_green_lft"></span><strong>添加新的管理员</strong><span
-                        class="bt_green_r"></span></a>
-
-
-                <div class="pagination">
-                    <span class="disabled"><< prev</span><span class="current">1</span><a href="">2</a><a
-                        href="">3</a><a href="">4</a><a href="">5</a>…<a href="">10</a><a href="">11</a><a
-                        href="">12</a>...<a href="">100</a><a href="">101</a><a href="">next >></a>
+        </nav>
+    </header>
+    <!-- Left side column. contains the logo and sidebar -->
+    <aside class="main-sidebar">
+        <!-- sidebar: style can be found in sidebar.less -->
+        <section class="sidebar">
+            <!-- Sidebar user panel -->
+            <!-- search form -->
+            <form action="#" method="get" class="sidebar-form">
+                <div class="input-group">
+                    <input type="text" name="q" class="form-control" placeholder="Search...">
+                    <span class="input-group-btn">
+                <button type="submit" name="search" id="search-btn" class="btn btn-flat"><i class="fa fa-search"></i>
+                </button>
+              </span>
                 </div>
-            </div>   <!--end of center content -->
+            </form>
+            <!-- /.search form -->
+            <!-- sidebar menu: : style can be found in sidebar.less -->
+            <ul class="sidebar-menu" data-widget="tree">
+                <li class="header">管理列表</li>
+                <li class="treeview">
+                    <a href="#">
+                        <i class="fa fa-dashboard"></i> <span>图书管理</span>
+                        <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
+                    </a>
+                    <ul class="treeview-menu">
+                        <li><a href="bigKind.html"><i class="fa fa-circle-o"></i> 大种类管理</a></li>
+                        <li><a href="smallKind.html"><i class="fa fa-circle-o"></i> 小种类管理</a></li>
+                        <li><a href="book.html"><i class="fa fa-circle-o"></i> 图书管理</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="admin.html">
+                        <i class="fa fa-files-o"></i>
+                        <span>管理员管理</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="user.html">
+                        <i class="fa fa-files-o"></i>
+                        <span>用户管理</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="order.html">
+                        <i class="fa fa-files-o"></i>
+                        <span>订单管理</span>
+                    </a>
+                </li>
+            </ul>
+        </section>
+        <!-- /.sidebar -->
+    </aside>
 
+    <!-- Content Wrapper. Contains page content -->
+    <div class="content-wrapper">
+        <!-- Content Header (Page header) -->
+        <section class="content-header">
+            <h1>
+                大种类信息表
+                <small>点击进行新建、编辑或删除</small>
+            </h1>
+        </section>
 
-            <div class="clear"></div>
-        </div> <!--end of main content-->
-
-
+        <!-- Main content -->
+        <section class="content">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="box">
+                        <div class="box-header">
+                            <!--<div class="col-sm-9">-->
+                            <!--&lt;!&ndash;<h3 class="box-title">Hover Data Table</h3>&ndash;&gt;-->
+                            <!--</div>-->
+                            <div class="col-sm-3">
+                                <a href="createBig.html" class="btn btn-block btn-warning">新建大种类</a>
+                            </div>
+                        </div>
+                        <!-- /.box-header -->
+                        <div class="box-body">
+                            <table id="example2" class="table table-bordered table-hover">
+                                <thead>
+                                <tr>
+                                    <th>种类名称</th>
+                                    <th>种类描述</th>
+                                    <th>种类图片</th>
+                                    <th>编辑</th>
+                                    <th>删除</th>
+                                </tr>
+                                </thead>
+                                <tbody id="tbody">
+                                </tbody>
+                            </table>
+                        </div>
+                        <!-- /.box-body -->
+                        <!-- /.box-body -->
+                    </div>
+                    <!-- /.box -->
+                </div>
+                <!-- /.col -->
+            </div>
+            <!-- /.row -->
+        </section>
+        <!-- /.content -->
     </div>
+    <!-- /.content-wrapper -->
+
+    <!-- Control Sidebar -->
+    <!-- /.control-sidebar -->
+    <!-- Add the sidebar's background. This div must be placed
+         immediately after the control sidebar -->
+    <div class="control-sidebar-bg"></div>
 </div>
+<!-- ./wrapper -->
+
+<!-- jQuery 3 -->
+<script src="../master/bower_components/jquery/dist/jquery.min.js"></script>
+<!-- Bootstrap 3.3.7 -->
+<script src="../master/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<!-- DataTables -->
+<script src="../master/bower_components/datatables.net/js/jquery.dataTables.min.js"></script>
+<script src="../master/bower_components/datatables.net-bs/js/dataTables.bootstrap.min.js"></script>
+<!-- SlimScroll -->
+<script src="../master/bower_components/jquery-slimscroll/jquery.slimscroll.min.js"></script>
+<!-- FastClick -->
+<script src="../master/bower_components/fastclick/lib/fastclick.js"></script>
+<!-- AdminLTE App -->
+<script src="../master/dist/js/adminlte.min.js"></script>
+<!-- AdminLTE for demo purposes -->
+<script src="../master/dist/js/demo.js"></script>
+<!-- page script -->
+<script>
+    $(document).ready(function () {
+        var INIT = "http://localhost:8080/big/list";
+        $.ajax({
+            url:INIT,
+            type:"POST",
+            contentType : "application/json",
+            data:{},
+            dataType:'json',
+            success:function (data) {
+//                alert(data);
+                for (var i = 0; i<data.length;i++){
+                    var tab=document.getElementById("tbody");
+                    //添加行
+                    var newTR = tab.insertRow(tab.rows.length);
+                    //获取序号=行索引
+                    var  xuhao=newTR.rowIndex.toString();
+                    var id = "tr" + xuhao;
+                    newTR.id = "tr" + xuhao;
+                    //"<td style='display: none'>"+data[i].id+"</td>"+
+                    newTR.innerHTML ="<td>"+data[i].bigKindName+"</td>"+"<td>"+data[i].bigKindMsg+"</td>"+"<td>"+"<img src='"+"../master/dist/img/mm/"+data[i].bigKindImg+"' alt='' title=''border='0'/>"+"</td>"
+                        +"<td><a href='#'onclick='edit("+data[i].id+")'><img src='../in-admin-panel/images/user_edit.png' alt='' title='' border='0'/></a></td>"
+                        +"<td><a href='#'onclick='d("+data[i].id+")')'><img src='../in-admin-panel/images/trash.png' alt='' title='' border='0'/></a></td>";
+                    //"<td style='display: none'>"+data[i].id+"</td>"+
+                }
+            }
+        });
+    });
+    function edit(data) {
+//            var id = $("#tr"+data).find("td").eq(0).text();
+//        alert(data);
+        url = "editBig.html?id="+data;//此处拼接内容
+        window.location.href = url;
+    }
+    function d(data) {
+        alert(data);
+        var INIT = "http://localhost:8080/big/delete";
+        $.ajax({
+            url:INIT,
+            type:"POST",
+            contentType : "application/json",
+            data:JSON.stringify({
+                "id":data
+            }),
+            dataType:"json",
+            success:function (data) {
+                if (data) {
+                    alert('删除成功！');
+                    self.location = "bigKind.html";
+                } else {
+                    alert('删除失败！');
+                }
+            }
+        });
+    }
+</script>
 </body>
 </html>
