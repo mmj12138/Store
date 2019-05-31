@@ -7,16 +7,27 @@ import lombok.EqualsAndHashCode;
 import java.util.Optional;
 
 /**
- * Created by Administrator on 2019/5/29.
+ * Created by Administrator on 2019/5/31.
  */
 @Data
 @EqualsAndHashCode(callSuper = true)
-public class DeleteBigRequest extends AbstractRequest {
+public class UpdateSmallRequest extends AbstractRequest {
 
     private Integer id;
+
+    private Integer bigId;
+
+    private String bigKindName;
+
+    private String smallKindName;
+
+    private String smallKindMsg;
+
+    private String smallKindImg;
 
     @Override
     public Optional<String> validateParam() {
         return Optional.empty();
     }
+
 }

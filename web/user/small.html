@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>AdminLTE 2 | Top Navigation</title>
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <!-- Bootstrap 3.3.7 -->
+    <link rel="stylesheet" href="../master/bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="../master/bower_components/font-awesome/css/font-awesome.min.css">
+    <!-- Ionicons -->
+    <link rel="stylesheet" href="../master/bower_components/Ionicons/css/ionicons.min.css">
+    <!-- Theme style -->
+    <link rel="stylesheet" href="../master/dist/css/AdminLTE.min.css">
+    <!-- AdminLTE Skins. Choose a skin from the css/skins
+         folder instead of downloading all of them to reduce the load. -->
+    <link rel="stylesheet" href="../master/dist/css/skins/_all-skins.min.css">
+
+    <script src="../master/bower_components/jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap 3.3.7 -->
+    <script src="../master/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- SlimScroll -->
+    <script src="../master/bower_components/jquery-slimscroll/jquery.slimscroll.min.js"></script>
+    <!-- FastClick -->
+    <script src="../master/bower_components/fastclick/lib/fastclick.js"></script>
+    <!-- AdminLTE App -->
+    <script src="../master/dist/js/adminlte.min.js"></script>
+    <!-- AdminLTE for demo purposes -->
+    <script src="../master/dist/js/demo.js"></script>
+    <script src="../master/bower_components/jquery-ui/jquery.cookie.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            var id = $.cookie("id");
+            if (typeof id == "undefined") {
+//            alert("未登录");
+                $("#click").removeAttr("data-toggle");
+                $("#name").html("<a href='login.html' style='color: #ffffff'>请登录</a>");
+            } else {
+                alert(id);
+            }
+            var id2 = GetQueryString("id");
+            alert(id2);
+            var INIT = "http://localhost:8080/small/getlist";
+            $.ajax({
+                url: INIT,
+                type: "GET",
+                contentType: "application/json",
+                data: {
+                    'id': id2
+                },
+                dataType: "json",
+                success: function (data) {
+//                alert(data.length);
+                    for (var i = 0; i < data.length; i++) {
+                        var divx = document.createElement("lable");
+                        divx.setAttribute("class", "row");
+                        var color = ["small-box bg-aqua", "small-box bg-red", "small-box bg-yellow", "small-box bg-green"];
+                        for (var j = 0; j < 4; j++) {
+                            if (i + j < data.length) {
+                                var div = document.createElement("div");
+                                div.setAttribute("class", "col-lg-3 col-xs-6");
+                                var div2 = document.createElement("div");
+                                div2.setAttribute("class", color[j]);
+                                div.appendChild(div2);
+                                div2.innerHTML =  "<div class='small-box'>"+"<div class='inner'><h3>"+data[i+j].smallKindName+"</h3><p>"+
+                                    data[i+j].smallKindMsg+"</p></div>"+"<div class='icon'>"
+                                    + "<a  href='#' onclick='small("+data[i].id+")'><img src=" + "../master/dist/img/mm/"
+                                    + data[i+j].smallKindImg + " alt='' width='255px' height='128px'></a>"
+                                    + "</div>" +"<a href='#' class='small-box-footer'>"
+                                    + "查看详情" + "<i class='fa fa-arrow-circle-right'></i></a></div>";
+                                divx.appendChild(div);
+                            } else {
+                                i = data.length;
+                            }
+                        }
+                        document.getElementById("cc").appendChild(divx);
+                    }
+                }
+            });
+        });
+        function GetQueryString(name) {
+            var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
+            var r = window.location.search.substr(1).match(reg);//search,查询？后面的参数，并匹配正则
+            if (r != null)return unescape(r[2]);
+            return null;
+        }
+        function small(data) {
+//            var id = $("#tr"+data).find("td").eq(0).text();
+//            alert(data);
+            url = "small.html?id="+data;//此处拼接内容
+            window.location.href = url;
+        }
+    </script>
+
+
+    <!-- Google Font -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
+</head>
+<!-- ADD THE CLASS layout-top-nav TO REMOVE THE SIDEBAR. -->
+<body class="hold-transition skin-blue layout-top-nav">
+<div class="wrapper">
+
+    <header class="main-header">
+        <nav class="navbar navbar-static-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <a href="../master/index2.html" class="navbar-brand"><b>新时代</b>书店</a>
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
+                        <i class="fa fa-bars"></i>
+                    </button>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse pull-left" id="navbar-collapse">
+                    <form class="navbar-form navbar-left" role="search">
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="navbar-search-input" placeholder="Search">
+                        </div>
+                    </form>
+                </div>
+                <!-- /.navbar-collapse -->
+                <!-- Navbar Right Menu -->
+                <div class="navbar-custom-menu">
+                    <ul class="nav navbar-nav">
+                        <!-- Messages: style can be found in dropdown.less-->
+                        <li class="dropdown messages-menu">
+                            <!-- Menu toggle button -->
+                            <a href="big.html">
+                                <i class="fa fa-envelope-o"></i>
+                            </a>
+                        </li>
+                        <!-- /.messages-menu -->
+                        <!-- Notifications Menu -->
+                        <li class="dropdown notifications-menu">
+                            <!-- Menu toggle button -->
+                            <a href="#">
+                                <i class="fa fa-bell-o"></i>
+                            </a>
+                        </li>
+                        <!-- Tasks Menu -->
+                        <li class="dropdown tasks-menu">
+                            <!-- Menu Toggle Button -->
+                            <a href="#">
+                                <i class="fa fa-flag-o"></i>
+                            </a>
+                        </li>
+                        <!-- User Account Menu -->
+                        <li class="dropdown user user-menu">
+                            <!-- Menu Toggle Button -->
+                            <a id="click" href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                <!-- The user image in the navbar-->
+                                <img disabled="disabled" src="../master/dist/img/user2-160x160.jpg" class="user-image" alt="User Image">
+                                <!-- hidden-xs hides the username on small devices so only the image appears. -->
+                                <span id="name" class="hidden-xs">Alexander Pierce</span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <!-- The user image in the menu -->
+                                <li class="user-header">
+                                    <img src="../master/dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
+
+                                    <p id="name2">
+                                        Alexander Pierce - Web Developer
+                                    </p>
+                                </li>
+                                <!-- Menu Body -->
+                                <li class="user-body">
+                                    <div class="row">
+                                        <div class="col-xs-4 text-center">
+                                            <a href="#">我的订单</a>
+                                        </div>
+                                        <div class="col-xs-4 text-center">
+                                            <a href="#">收货地址</a>
+                                        </div>
+                                        <div class="col-xs-4 text-center">
+                                            <a href="#">个人资料</a>
+                                        </div>
+                                    </div>
+                                    <!-- /.row -->
+                                </li>
+                                <!-- Menu Footer-->
+                                <li class="user-footer">
+                                    <div class="pull-left">
+                                        <a href="#" class="btn btn-danger btn-flat">注销</a>
+                                    </div>
+                                    <div class="pull-right">
+                                        <a href="#" class="btn btn-default btn-flat">登出</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.navbar-custom-menu -->
+            </div>
+            <!-- /.container-fluid -->
+        </nav>
+    </header>
+    <!-- Full Width Column -->
+    <div class="content-wrapper">
+        <div id="cc" class="container">
+            <!-- Content Header (Page header) -->
+            <div class="content-header">
+                <h1>
+                    新时代书店
+                    <small>读者的天堂</small>
+                </h1>
+            </div>
+            <!-- /.content -->
+        </div>
+        <!-- /.container -->
+    </div>
+    <!-- /.content-wrapper -->
+</div>
+</div>
+<!-- ./wrapper -->
+</body>
+</html>

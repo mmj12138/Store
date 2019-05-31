@@ -1,7 +1,7 @@
 package com.mmj.core.serviceImpl;
 
 import com.mmj.core.dao.BigDao;
-import com.mmj.core.dto.DeleteBigRequest;
+import com.mmj.core.dto.DeleteKindRequest;
 import com.mmj.core.dto.SaveBigRequest;
 import com.mmj.core.dto.UpdateBigRequest;
 import com.mmj.core.mapper.auto.BigKindMapper;
@@ -45,7 +45,7 @@ public class BigServiceImpl implements BigService {
     }
 
     @Override
-    public Boolean delete(DeleteBigRequest request) {
+    public Boolean delete(DeleteKindRequest request) {
         return bigDao.deleteById(request.getId());
     }
 

@@ -1,6 +1,6 @@
 package com.mmj.core.service;
 
-import com.mmj.core.dto.DeleteBigRequest;
+import com.mmj.core.dto.DeleteKindRequest;
 import com.mmj.core.dto.SaveBigRequest;
 import com.mmj.core.dto.UpdateBigRequest;
 import com.mmj.core.model.auto.BigKind;
@@ -36,7 +36,7 @@ public interface BigService {
      * @param request
      * @return
      */
-    Boolean delete(DeleteBigRequest request);
+    Boolean delete(DeleteKindRequest request);
 
     /**
      * 新建

@@ -1,7 +1,7 @@
 package com.mmj.app.controller;
 
 import com.alibaba.druid.util.StringUtils;
-import com.mmj.core.dto.DeleteBigRequest;
+import com.mmj.core.dto.DeleteKindRequest;
 import com.mmj.core.dto.SaveBigRequest;
 import com.mmj.core.dto.UpdateBigRequest;
 import com.mmj.core.model.auto.BigKind;
@@ -54,7 +54,7 @@ public class BigKindController {
      * @return
      */
     @RequestMapping("/delete")
-    public Boolean delete(@RequestBody DeleteBigRequest request) {
+    public Boolean delete(@RequestBody DeleteKindRequest request) {
         return bigService.delete(request);
     }
 

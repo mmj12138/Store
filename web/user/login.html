@@ -52,7 +52,7 @@
                           alert("账号不存在或密码错误！")
                       } else {
                           alert("登陆成功");
-                          $.cookie('name', data, { expires: 7 });
+                          $.cookie('id', data, { expires: 7 });
                           alert($.cookie('name'));
                           self.location = "index.html";
                       }

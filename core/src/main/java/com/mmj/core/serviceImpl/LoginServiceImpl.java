@@ -35,7 +35,7 @@ public class LoginServiceImpl implements LoginService {
         if (!Optional.ofNullable(user).isPresent() || !StringUtils.equals(user.getPassword(), usr.getPassword())) {
             return "-1";
         }
-        return user.getNinckName();
+        return user.getId().toString();
     }
 
     @Override

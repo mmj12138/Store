@@ -31,51 +31,56 @@
   <script src="../master/dist/js/demo.js"></script>
   <script src="../master/bower_components/jquery-ui/jquery.cookie.js"></script>
   <script type="text/javascript">
-    function f() {
-        var name = $.cookie("name");
-//        alert(name);
-        if (name == '') {
-            $("#name").html(name);
-            $("#name2").html(name);
-        } else {
-            $("#name").html(name);
-            $("#name2").html(name);
-        }
-        var INIT = "http://localhost:8080/big/list";
-        $.ajax({
-            url:INIT,
-            type:"POST",
-            contentType : "application/json",
-            data:{},
-            dataType:'json',
-            success:function (data) {
+      $(document).ready(function () {
+          var id = $.cookie("id");
+          if (typeof id == "undefined") {
+//            alert("未登录");
+              $("#click").removeAttr("data-toggle");
+              $("#name").html("<a href='login.html' style='color: #ffffff'>请登录</a>");
+          } else {
+              alert(id);
+          }
+          var INIT = "http://localhost:8080/big/list";
+          $.ajax({
+              url:INIT,
+              type:"POST",
+              contentType : "application/json",
+              data:{},
+              dataType:'json',
+              success:function (data) {
 //                alert(data.length);
-                for (var i = 0; i < data.length; i++) {
-                    var divx = document.createElement("lable");
-                    divx.setAttribute("class", "row");
-                    var color = ["small-box bg-aqua", "small-box bg-red", "small-box bg-yellow", "small-box bg-green"];
-                    for (var j = 0; j < 4; j++) {
-                        if (i + j < data.length) {
-                            var div = document.createElement("div");
-                            div.setAttribute("class", "col-lg-3 col-xs-6");
-                            var div2 = document.createElement("div");
-                            div2.setAttribute("class", color[j]);
-                            div.appendChild(div2);
-                            div2.innerHTML =  "<div class='small-box'>"+"<div class='inner'><h3>"+data[i+j].bigKindName+"</h3><p>"+
-                                data[i+j].bigKindMsg+"</p></div>"+"<div class='icon'>"
-                                + "<a href='login.html'><img src=" + "../master/dist/img/mm/"
-                                + data[i+j].bigKindImg + " alt='' width='255px' height='128px'></a>"
-                                + "</div>" +"<a href='#' class='small-box-footer'>"
-                                + "查看详情" + "<i class='fa fa-arrow-circle-right'></i></a></div>";
-                            divx.appendChild(div);
-                        } else {
-                            i = data.length;
-                        }
-                    }
-                    document.getElementById("cc").appendChild(divx);
-                }
-            }
-        });
+                  for (var i = 0; i < data.length; i++) {
+                      var divx = document.createElement("lable");
+                      divx.setAttribute("class", "row");
+                      var color = ["small-box bg-aqua", "small-box bg-red", "small-box bg-yellow", "small-box bg-green"];
+                      for (var j = 0; j < 4; j++) {
+                          if (i + j < data.length) {
+                              var div = document.createElement("div");
+                              div.setAttribute("class", "col-lg-3 col-xs-6");
+                              var div2 = document.createElement("div");
+                              div2.setAttribute("class", color[j]);
+                              div.appendChild(div2);
+                              div2.innerHTML =  "<div class='small-box'>"+"<div class='inner'><h3>"+data[i+j].bigKindName+"</h3><p>"+
+                                  data[i+j].bigKindMsg+"</p></div>"+"<div class='icon'>"
+                                  + "<a  href='#' onclick='small("+data[i].id+")'><img src=" + "../master/dist/img/mm/"
+                                  + data[i+j].bigKindImg + " alt='' width='255px' height='128px'></a>"
+                                  + "</div>" +"<a href='#' class='small-box-footer'>"
+                                  + "查看详情" + "<i class='fa fa-arrow-circle-right'></i></a></div>";
+                              divx.appendChild(div);
+                          } else {
+                              i = data.length;
+                          }
+                      }
+                      document.getElementById("cc").appendChild(divx);
+                  }
+              }
+          });
+      });
+    function small(data) {
+//            var id = $("#tr"+data).find("td").eq(0).text();
+//            alert(data);
+        url = "small.html?id="+data;//此处拼接内容
+        window.location.href = url;
     }
   </script>
 
@@ -84,7 +89,7 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
 </head>
 <!-- ADD THE CLASS layout-top-nav TO REMOVE THE SIDEBAR. -->
-<body class="hold-transition skin-blue layout-top-nav" onload="f()">
+<body class="hold-transition skin-blue layout-top-nav">
 <div class="wrapper">
 
   <header class="main-header">
@@ -112,7 +117,7 @@
             <!-- Messages: style can be found in dropdown.less-->
             <li class="dropdown messages-menu">
               <!-- Menu toggle button -->
-              <a href="index.html">
+              <a href="big.html">
                 <i class="fa fa-envelope-o"></i>
               </a>
             </li>
@@ -134,9 +139,9 @@
             <!-- User Account Menu -->
             <li class="dropdown user user-menu">
               <!-- Menu Toggle Button -->
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+              <a id="click" href="#" class="dropdown-toggle" data-toggle="dropdown">
                 <!-- The user image in the navbar-->
-                <img src="../master/dist/img/user2-160x160.jpg" class="user-image" alt="User Image">
+                <img disabled="disabled" src="../master/dist/img/user2-160x160.jpg" class="user-image" alt="User Image">
                 <!-- hidden-xs hides the username on small devices so only the image appears. -->
                 <span id="name" class="hidden-xs">Alexander Pierce</span>
               </a>

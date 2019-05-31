@@ -19,7 +19,7 @@
                              targetProject="src/main/java" type="XMLMAPPER">
         </javaClientGenerator>
 
-        <table tableName="admin_msg" />
+        <table tableName="book" />
         <!--<table catalog="gaotu" tableName="clazz_extension" />-->
 
     </context>
